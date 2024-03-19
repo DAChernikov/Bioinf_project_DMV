@@ -1,6 +1,6 @@
 # IDENTIFICATION TRIGGERS OF PARIS DEFENCE SYSTEM
 
-## Цель проекта
+## Project Goal
 The main objective of the project is to identify viral triggers of the PARIS abortive defense system through changes in gene frequencies in plasmid libraries.
 
 ## Project presentation
