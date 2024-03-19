@@ -7,7 +7,7 @@ The main objective of the project is to identify viral triggers of the PARIS abo
 A detailed presentation of the project is available at the following link:
 [Project Presentation in Google Slides](https://docs.google.com/presentation/d/1-KTM0OiHdkXXXEEehxYrX4-w9287vMTyLXqOCywW6qE/edit#slide=id.g2c46fa53951_0_13)
 
-## Datasets (you can find them in `data/raw`
+## Datasets (you can find them in `data/raw`)
 The following datasets are used in the project:
 - T5_lib_PARIS_triggers:
   * 16_t5-d-plasm_x200 - Cells before induction
