@@ -1,0 +1,554 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AY543070.1 1 121750
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2695836
+AY543070.1	Genbank	region	1	121750	.	+	.	ID=AY543070.1:1..121750;Dbxref=taxon:2695836;gbkey=Src;mol_type=genomic DNA;old-name=Bacteriophage T5
+AY543070.1	Genbank	repeat_region	1	10219	.	+	.	ID=id-AY543070.1:1..10219;Note=left terminal repeat (TR)%3B comprises first-step-transfer (FST) DNA%3B enters host cell first;gbkey=repeat_region
+AY543070.1	Genbank	gene	124	858	.	-	.	ID=gene-T5.001;Name=dmp;gbkey=Gene;gene=dmp;gene_biotype=protein_coding;locus_tag=T5.001
+AY543070.1	Genbank	CDS	124	858	.	-	0	ID=cds-AAS77048.1;Parent=gene-T5.001;Dbxref=NCBI_GP:AAS77048.1;Name=AAS77048.1;gbkey=CDS;gene=dmp;locus_tag=T5.001;product=deoxynucleoside-5'-monophosphatase;protein_id=AAS77048.1;transl_table=11
+AY543070.1	Genbank	gene	939	1334	.	-	.	ID=gene-T5.002;Name=T5.002;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.002
+AY543070.1	Genbank	CDS	939	1334	.	-	0	ID=cds-AAS77049.1;Parent=gene-T5.002;Dbxref=NCBI_GP:AAS77049.1;Name=AAS77049.1;gbkey=CDS;locus_tag=T5.002;product=hypothetical protein;protein_id=AAS77049.1;transl_table=11
+AY543070.1	Genbank	gene	1371	1649	.	-	.	ID=gene-T5.003;Name=T5.003;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.003
+AY543070.1	Genbank	CDS	1371	1649	.	-	0	ID=cds-AAS77050.1;Parent=gene-T5.003;Dbxref=NCBI_GP:AAS77050.1;Name=AAS77050.1;gbkey=CDS;locus_tag=T5.003;product=hypothetical protein;protein_id=AAS77050.1;transl_table=11
+AY543070.1	Genbank	gene	1706	3376	.	-	.	ID=gene-T5.004;Name=A1;gbkey=Gene;gene=A1;gene_biotype=protein_coding;locus_tag=T5.004
+AY543070.1	Genbank	CDS	1706	3376	.	-	0	ID=cds-AAS77051.1;Parent=gene-T5.004;Dbxref=NCBI_GP:AAS77051.1;Name=AAS77051.1;Note=involved in degradation of host DNA and required for shutoff of expression of host genes and phage pre-early genes%3B A1 and A2 proteins are required for transfer of phage DNA to host cell;gbkey=CDS;gene=A1;locus_tag=T5.004;product=A1;protein_id=AAS77051.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	2665	2665	.	-	.	ID=id-T5.004;Note=compared to bacteriophage T5A1amH27%3B results in amber-codon;gbkey=variation;gene=A1;locus_tag=T5.004;replace=t
+AY543070.1	Genbank	gene	3473	3670	.	-	.	ID=gene-T5.005;Name=T5.005;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.005
+AY543070.1	Genbank	CDS	3473	3670	.	-	0	ID=cds-AAS77052.1;Parent=gene-T5.005;Dbxref=NCBI_GP:AAS77052.1;Name=AAS77052.1;Note=contains two transmembrane domains;gbkey=CDS;locus_tag=T5.005;product=hypothetical protein;protein_id=AAS77052.1;transl_table=11
+AY543070.1	Genbank	gene	3727	4134	.	-	.	ID=gene-T5.006;Name=A2;gbkey=Gene;gene=A2;gene_biotype=protein_coding;locus_tag=T5.006
+AY543070.1	Genbank	CDS	3727	4134	.	-	0	ID=cds-AAS77053.1;Parent=gene-T5.006;Dbxref=NCBI_GP:AAS77053.1;Name=AAS77053.1;Note=DNA-binding protein%3B jointly with A1 protein is required for transfer of phage DNA to host cell%3B similar to bacteriophage A2-A3 protein SwissProt Accession Number P19348;gbkey=CDS;gene=A2;locus_tag=T5.006;product=A2;protein_id=AAS77053.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	3939	3939	.	-	.	ID=id-T5.006;Note=compared to bacteriophage T5A2amH231%3B results in amber-codon;gbkey=variation;gene=A2;locus_tag=T5.006;replace=t
+AY543070.1	Genbank	gene	4230	4481	.	-	.	ID=gene-T5.007;Name=T5.007;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.007
+AY543070.1	Genbank	CDS	4230	4481	.	-	0	ID=cds-AAS77054.1;Parent=gene-T5.007;Dbxref=NCBI_GP:AAS77054.1;Name=AAS77054.1;gbkey=CDS;locus_tag=T5.007;product=hypothetical protein;protein_id=AAS77054.1;transl_table=11
+AY543070.1	Genbank	promoter	4338	4664	.	-	.	ID=id-AY543070.1:4338..4664;Note=promoter P-D/E 20;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	4715	4918	.	-	.	ID=gene-T5.008;Name=T5.008;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.008
+AY543070.1	Genbank	CDS	4715	4918	.	-	0	ID=cds-AAS77055.1;Parent=gene-T5.008;Dbxref=NCBI_GP:AAS77055.1;Name=AAS77055.1;gbkey=CDS;locus_tag=T5.008;product=hypothetical protein;protein_id=AAS77055.1;transl_table=11
+AY543070.1	Genbank	promoter	4799	4873	.	-	.	ID=id-AY543070.1:4799..4873;Note=promoter P-H 22;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	4915	5022	.	-	.	ID=gene-T5.009;Name=T5.009;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.009
+AY543070.1	Genbank	CDS	4915	5022	.	-	0	ID=cds-AAS77056.1;Parent=gene-T5.009;Dbxref=NCBI_GP:AAS77056.1;Name=AAS77056.1;gbkey=CDS;locus_tag=T5.009;product=hypothetical protein;protein_id=AAS77056.1;transl_table=11
+AY543070.1	Genbank	gene	5411	5929	.	-	.	ID=gene-T5.010;Name=hegG;gbkey=Gene;gene=hegG;gene_biotype=protein_coding;locus_tag=T5.010
+AY543070.1	Genbank	CDS	5411	5929	.	-	0	ID=cds-AAS77057.1;Parent=gene-T5.010;Dbxref=NCBI_GP:AAS77057.1;Name=AAS77057.1;Note=identified by match to InterPro domain IPR002711;gbkey=CDS;gene=hegG;locus_tag=T5.010;product=putative H-N-H-endonuclease P-TflVII;protein_id=AAS77057.1;transl_table=11
+AY543070.1	Genbank	promoter	5938	6012	.	-	.	ID=id-AY543070.1:5938..6012;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	promoter	6411	6489	.	+	.	ID=id-AY543070.1:6411..6489;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	6495	7505	.	+	.	ID=gene-T5.011;Name=T5.011;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.011
+AY543070.1	Genbank	CDS	6495	7505	.	+	0	ID=cds-AAS77058.1;Parent=gene-T5.011;Dbxref=NCBI_GP:AAS77058.1;Name=AAS77058.1;gbkey=CDS;locus_tag=T5.011;product=hypothetical protein;protein_id=AAS77058.1;transl_table=11
+AY543070.1	Genbank	terminator	7534	7559	.	+	.	ID=id-AY543070.1:7534..7559;Note=putative rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	gene	7624	7854	.	+	.	ID=gene-T5.012;Name=T5.012;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.012
+AY543070.1	Genbank	CDS	7624	7854	.	+	0	ID=cds-AAS77059.1;Parent=gene-T5.012;Dbxref=NCBI_GP:AAS77059.1;Name=AAS77059.1;gbkey=CDS;locus_tag=T5.012;product=hypothetical protein;protein_id=AAS77059.1;transl_table=11
+AY543070.1	Genbank	gene	7904	8083	.	+	.	ID=gene-T5.013;Name=T5.013;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.013
+AY543070.1	Genbank	CDS	7904	8083	.	+	0	ID=cds-AAS77060.1;Parent=gene-T5.013;Dbxref=NCBI_GP:AAS77060.1;Name=AAS77060.1;Note=contains two transmembrane domains;gbkey=CDS;locus_tag=T5.013;product=hypothetical protein;protein_id=AAS77060.1;transl_table=11
+AY543070.1	Genbank	gene	8086	8298	.	+	.	ID=gene-T5.014;Name=T5.014;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.014
+AY543070.1	Genbank	CDS	8086	8298	.	+	0	ID=cds-AAS77061.1;Parent=gene-T5.014;Dbxref=NCBI_GP:AAS77061.1;Name=AAS77061.1;gbkey=CDS;locus_tag=T5.014;product=hypothetical protein;protein_id=AAS77061.1;transl_table=11
+AY543070.1	Genbank	gene	8300	8644	.	+	.	ID=gene-T5.015;Name=T5.015;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.015
+AY543070.1	Genbank	CDS	8300	8644	.	+	0	ID=cds-AAS77062.1;Parent=gene-T5.015;Dbxref=NCBI_GP:AAS77062.1;Name=AAS77062.1;gbkey=CDS;locus_tag=T5.015;product=hypothetical protein;protein_id=AAS77062.1;transl_table=11
+AY543070.1	Genbank	gene	8681	8938	.	+	.	ID=gene-T5.016;Name=T5.016;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.016
+AY543070.1	Genbank	CDS	8681	8938	.	+	0	ID=cds-AAS77063.1;Parent=gene-T5.016;Dbxref=NCBI_GP:AAS77063.1;Name=AAS77063.1;gbkey=CDS;locus_tag=T5.016;product=hypothetical protein;protein_id=AAS77063.1;transl_table=11
+AY543070.1	Genbank	gene	8954	9157	.	+	.	ID=gene-T5.017;Name=T5.017;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.017
+AY543070.1	Genbank	CDS	8954	9157	.	+	0	ID=cds-AAS77064.1;Parent=gene-T5.017;Dbxref=NCBI_GP:AAS77064.1;Name=AAS77064.1;gbkey=CDS;locus_tag=T5.017;product=hypothetical protein;protein_id=AAS77064.1;transl_table=11
+AY543070.1	Genbank	sequence_feature	9140	10149	.	+	.	ID=id-AY543070.1:9140..10149;function=injection stop signal (iss);gbkey=misc_feature
+AY543070.1	Genbank	terminator	9275	9296	.	+	.	ID=id-AY543070.1:9275..9296;Note=putative rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	sequence_feature	9748	9749	.	-	.	ID=id-AY543070.1:9748..9749;Note=major DNA single-chain interruption;gbkey=misc_feature
+AY543070.1	Genbank	gene	10936	11820	.	-	.	ID=gene-T5.018;Name=T5.018;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.018
+AY543070.1	Genbank	CDS	10936	11820	.	-	0	ID=cds-AAS77065.1;Parent=gene-T5.018;Dbxref=NCBI_GP:AAS77065.1;Name=AAS77065.1;gbkey=CDS;locus_tag=T5.018;product=hypothetical protein;protein_id=AAS77065.1;transl_table=11
+AY543070.1	Genbank	gene	11902	12510	.	-	.	ID=gene-T5.019;Name=T5.019;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.019
+AY543070.1	Genbank	CDS	11902	12510	.	-	0	ID=cds-AAS77066.1;Parent=gene-T5.019;Dbxref=NCBI_GP:AAS77066.1;Name=AAS77066.1;gbkey=CDS;locus_tag=T5.019;product=hypothetical protein;protein_id=AAS77066.1;transl_table=11
+AY543070.1	Genbank	gene	12510	12695	.	-	.	ID=gene-T5.020;Name=T5.020;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.020
+AY543070.1	Genbank	CDS	12510	12695	.	-	0	ID=cds-AAS77067.1;Parent=gene-T5.020;Dbxref=NCBI_GP:AAS77067.1;Name=AAS77067.1;Note=contains single transmembrane domain;gbkey=CDS;locus_tag=T5.020;product=hypothetical protein;protein_id=AAS77067.1;transl_table=11
+AY543070.1	Genbank	gene	12695	12928	.	-	.	ID=gene-T5.021;Name=T5.021;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.021
+AY543070.1	Genbank	CDS	12695	12928	.	-	0	ID=cds-AAS77068.1;Parent=gene-T5.021;Dbxref=NCBI_GP:AAS77068.1;Name=AAS77068.1;Note=contains single transmembrane domain;gbkey=CDS;locus_tag=T5.021;product=hypothetical protein;protein_id=AAS77068.1;transl_table=11
+AY543070.1	Genbank	gene	12916	13206	.	-	.	ID=gene-T5.022;Name=T5.022;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.022
+AY543070.1	Genbank	CDS	12916	13206	.	-	0	ID=cds-AAS77070.1;Parent=gene-T5.022;Dbxref=NCBI_GP:AAS77070.1;Name=AAS77070.1;gbkey=CDS;locus_tag=T5.022;product=hypothetical protein;protein_id=AAS77070.1;transl_table=11
+AY543070.1	Genbank	gene	13199	13645	.	-	.	ID=gene-T5.023;Name=T5.023;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.023
+AY543070.1	Genbank	CDS	13199	13645	.	-	0	ID=cds-AAS77069.1;Parent=gene-T5.023;Dbxref=NCBI_GP:AAS77069.1;Name=AAS77069.1;gbkey=CDS;locus_tag=T5.023;product=hypothetical protein;protein_id=AAS77069.1;transl_table=11
+AY543070.1	Genbank	promoter	13212	13286	.	-	.	ID=id-T5.023;Parent=gene-T5.023;gbkey=regulatory;locus_tag=T5.023;regulatory_class=promoter
+AY543070.1	Genbank	gene	13647	13850	.	-	.	ID=gene-T5.024;Name=T5.024;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.024
+AY543070.1	Genbank	CDS	13647	13850	.	-	0	ID=cds-AAS77071.1;Parent=gene-T5.024;Dbxref=NCBI_GP:AAS77071.1;Name=AAS77071.1;gbkey=CDS;locus_tag=T5.024;product=hypothetical protein;protein_id=AAS77071.1;transl_table=11
+AY543070.1	Genbank	terminator	13864	13898	.	-	.	ID=id-AY543070.1:13864..13898;Note=putative rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	gene	13907	14278	.	-	.	ID=gene-T5.025;Name=T5.025;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.025
+AY543070.1	Genbank	CDS	13907	14278	.	-	0	ID=cds-AAS77072.1;Parent=gene-T5.025;Dbxref=NCBI_GP:AAS77072.1;Name=AAS77072.1;gbkey=CDS;locus_tag=T5.025;product=hypothetical protein;protein_id=AAS77072.1;transl_table=11
+AY543070.1	Genbank	gene	14226	14687	.	-	.	ID=gene-T5.026;Name=T5.026;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.026
+AY543070.1	Genbank	CDS	14226	14687	.	-	0	ID=cds-AAS77073.1;Parent=gene-T5.026;Dbxref=NCBI_GP:AAS77073.1;Name=AAS77073.1;gbkey=CDS;locus_tag=T5.026;product=hypothetical protein;protein_id=AAS77073.1;transl_table=11
+AY543070.1	Genbank	gene	14684	14884	.	-	.	ID=gene-T5.027;Name=T5.027;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.027
+AY543070.1	Genbank	CDS	14684	14884	.	-	0	ID=cds-AAS77074.1;Parent=gene-T5.027;Dbxref=NCBI_GP:AAS77074.1;Name=AAS77074.1;Note=contains two transmembrane domains;gbkey=CDS;locus_tag=T5.027;product=hypothetical protein;protein_id=AAS77074.1;transl_table=11
+AY543070.1	Genbank	gene	14984	15310	.	-	.	ID=gene-T5.028;Name=T5.028;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.028
+AY543070.1	Genbank	CDS	14984	15310	.	-	0	ID=cds-AAS77075.1;Parent=gene-T5.028;Dbxref=NCBI_GP:AAS77075.1;Name=AAS77075.1;gbkey=CDS;locus_tag=T5.028;product=hypothetical protein;protein_id=AAS77075.1;transl_table=11
+AY543070.1	Genbank	gene	15300	15545	.	-	.	ID=gene-T5.029;Name=T5.029;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.029
+AY543070.1	Genbank	CDS	15300	15545	.	-	0	ID=cds-AAS77076.1;Parent=gene-T5.029;Dbxref=NCBI_GP:AAS77076.1;Name=AAS77076.1;Note=contains two transmembrane domains;gbkey=CDS;locus_tag=T5.029;product=hypothetical protein;protein_id=AAS77076.1;transl_table=11
+AY543070.1	Genbank	gene	15542	15823	.	-	.	ID=gene-T5.030;Name=T5.030;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.030
+AY543070.1	Genbank	CDS	15542	15823	.	-	0	ID=cds-AAS77077.1;Parent=gene-T5.030;Dbxref=NCBI_GP:AAS77077.1;Name=AAS77077.1;Note=contains single transmembrane domain;gbkey=CDS;locus_tag=T5.030;product=hypothetical protein;protein_id=AAS77077.1;transl_table=11
+AY543070.1	Genbank	gene	15823	15987	.	-	.	ID=gene-T5.031;Name=T5.031;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf1c;locus_tag=T5.031
+AY543070.1	Genbank	CDS	15823	15987	.	-	0	ID=cds-AAS77078.1;Parent=gene-T5.031;Dbxref=NCBI_GP:AAS77078.1;Name=AAS77078.1;Note=contains single transmembrane domain;gbkey=CDS;locus_tag=T5.031;product=hypothetical protein;protein_id=AAS77078.1;transl_table=11
+AY543070.1	Genbank	gene	15987	16238	.	-	.	ID=gene-T5.032;Name=T5.032;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf2c;locus_tag=T5.032
+AY543070.1	Genbank	CDS	15987	16238	.	-	0	ID=cds-AAS77079.1;Parent=gene-T5.032;Dbxref=NCBI_GP:AAS77079.1;Name=AAS77079.1;gbkey=CDS;locus_tag=T5.032;product=hypothetical protein;protein_id=AAS77079.1;transl_table=11
+AY543070.1	Genbank	promoter	16245	16319	.	-	.	ID=id-AY543070.1:16245..16319;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	16317	16748	.	-	.	ID=gene-T5.033;Name=T5.033;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf3c;locus_tag=T5.033
+AY543070.1	Genbank	CDS	16317	16748	.	-	0	ID=cds-AAS77080.1;Parent=gene-T5.033;Dbxref=NCBI_GP:AAS77080.1;Name=AAS77080.1;gbkey=CDS;locus_tag=T5.033;product=hypothetical protein;protein_id=AAS77080.1;transl_table=11
+AY543070.1	Genbank	promoter	16779	16784	.	-	.	ID=id-AY543070.1:16779..16784;Note=promoter P-F 30;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	16916	17437	.	-	.	ID=gene-T5.034;Name=T5.034;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf4c;locus_tag=T5.034
+AY543070.1	Genbank	CDS	16916	17437	.	-	0	ID=cds-AAS77081.1;Parent=gene-T5.034;Dbxref=NCBI_GP:AAS77081.1;Name=AAS77081.1;Note=identified by match to InterPro domain IPR004843;gbkey=CDS;locus_tag=T5.034;product=putative serine/threonine protein phosphatase;protein_id=AAS77081.1;transl_table=11
+AY543070.1	Genbank	gene	17437	18300	.	-	.	ID=gene-T5.035;Name=T5.035;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf5c;locus_tag=T5.035
+AY543070.1	Genbank	CDS	17437	18300	.	-	0	ID=cds-AAS77082.1;Parent=gene-T5.035;Dbxref=NCBI_GP:AAS77082.1;Name=AAS77082.1;Note=identified by match to InterPro domain IPR004843 and InterPro family IPR006186;gbkey=CDS;locus_tag=T5.035;product=putative serine/threonine protein phosphatase;protein_id=AAS77082.1;transl_table=11
+AY543070.1	Genbank	gene	18303	18548	.	-	.	ID=gene-T5.036;Name=T5.036;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf6c;locus_tag=T5.036
+AY543070.1	Genbank	CDS	18303	18548	.	-	0	ID=cds-AAS77083.1;Parent=gene-T5.036;Dbxref=NCBI_GP:AAS77083.1;Name=AAS77083.1;gbkey=CDS;locus_tag=T5.036;product=hypothetical protein;protein_id=AAS77083.1;transl_table=11
+AY543070.1	Genbank	promoter	18550	18624	.	-	.	ID=id-AY543070.1:18550..18624;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	terminator	18607	18637	.	-	.	ID=id-AY543070.1:18607..18637;Note=putative rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	gene	18646	18936	.	-	.	ID=gene-T5.037;Name=T5.037;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf7c;locus_tag=T5.037
+AY543070.1	Genbank	CDS	18646	18936	.	-	0	ID=cds-AAS77084.1;Parent=gene-T5.037;Dbxref=NCBI_GP:AAS77084.1;Name=AAS77084.1;gbkey=CDS;locus_tag=T5.037;product=putative thioredoxin;protein_id=AAS77084.1;transl_table=11
+AY543070.1	Genbank	gene	18929	19360	.	-	.	ID=gene-T5.038;Name=T5.038;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf8c;locus_tag=T5.038
+AY543070.1	Genbank	CDS	18929	19360	.	-	0	ID=cds-AAS77085.1;Parent=gene-T5.038;Dbxref=NCBI_GP:AAS77085.1;Name=AAS77085.1;gbkey=CDS;locus_tag=T5.038;product=hypothetical protein;protein_id=AAS77085.1;transl_table=11
+AY543070.1	Genbank	promoter	19368	19442	.	-	.	ID=id-AY543070.1:19368..19442;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	19436	19852	.	-	.	ID=gene-T5.039;Name=T5.039;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf9c;locus_tag=T5.039
+AY543070.1	Genbank	CDS	19436	19852	.	-	0	ID=cds-AAS77086.1;Parent=gene-T5.039;Dbxref=NCBI_GP:AAS77086.1;Name=AAS77086.1;Note=contains four transmembrane domains;gbkey=CDS;locus_tag=T5.039;product=hypothetical protein;protein_id=AAS77086.1;transl_table=11
+AY543070.1	Genbank	terminator	19897	19919	.	-	.	ID=id-AY543070.1:19897..19919;Note=putative rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	gene	19931	20344	.	-	.	ID=gene-T5.040;Name=lys;gbkey=Gene;gene=lys;gene_biotype=protein_coding;locus_tag=T5.040
+AY543070.1	Genbank	CDS	19931	20344	.	-	0	ID=cds-AAS77087.1;Parent=gene-T5.040;Dbxref=NCBI_GP:AAS77087.1;Name=AAS77087.1;gbkey=CDS;gene=lys;locus_tag=T5.040;product=lysozyme;protein_id=AAS77087.1;transl_table=11
+AY543070.1	Genbank	gene	20341	20997	.	-	.	ID=gene-T5.041;Name=C1;gbkey=Gene;gene=C1;gene_biotype=protein_coding;gene_synonym=orf11c;locus_tag=T5.041
+AY543070.1	Genbank	CDS	20341	20997	.	-	0	ID=cds-AAS77088.1;Parent=gene-T5.041;Dbxref=NCBI_GP:AAS77088.1;Name=AAS77088.1;Note=contains single transmembrane domain;gbkey=CDS;gene=C1;locus_tag=T5.041;product=putative holin;protein_id=AAS77088.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	20826	20826	.	-	.	ID=id-T5.041;Note=compared to bacteriophage T5C1amH59%3B results in amber-codon;gbkey=variation;gene=C1;locus_tag=T5.041;replace=t
+AY543070.1	Genbank	promoter	20998	21071	.	-	.	ID=id-AY543070.1:20998..21071;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	terminator	21114	21143	.	-	.	ID=id-AY543070.1:21114..21143;Note=putative rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	gene	21154	21753	.	-	.	ID=gene-T5.042;Name=T5.042;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf12c;locus_tag=T5.042
+AY543070.1	Genbank	CDS	21154	21753	.	-	0	ID=cds-AAS77089.1;Parent=gene-T5.042;Dbxref=NCBI_GP:AAS77089.1;Name=AAS77089.1;gbkey=CDS;locus_tag=T5.042;product=putative ATP-dependent Clp protease;protein_id=AAS77089.1;transl_table=11
+AY543070.1	Genbank	gene	21766	22518	.	-	.	ID=gene-T5.043;Name=dnk;gbkey=Gene;gene=dnk;gene_biotype=protein_coding;locus_tag=T5.043
+AY543070.1	Genbank	CDS	21766	22518	.	-	0	ID=cds-AAS77090.1;Parent=gene-T5.043;Dbxref=NCBI_GP:AAS77090.1;Name=AAS77090.1;Note=matches to InterPro repeat IPR002110;gbkey=CDS;gene=dnk;locus_tag=T5.043;product=deoxynucleoside-5'-monophosphate kinase;protein_id=AAS77090.1;transl_table=11
+AY543070.1	Genbank	sequence_feature	22336	22337	.	-	.	ID=id-AY543070.1:22336..22337;Note=major DNA single-chain interruption%3B identified by match to the consensus sequence 5'-NPu pGCGCN-3' surrounding an interruption;gbkey=misc_feature
+AY543070.1	Genbank	gene	22518	22871	.	-	.	ID=gene-T5.044;Name=T5.044;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf14c;locus_tag=T5.044
+AY543070.1	Genbank	CDS	22518	22871	.	-	0	ID=cds-AAS77091.1;Parent=gene-T5.044;Dbxref=NCBI_GP:AAS77091.1;Name=AAS77091.1;Note=similar to bacteriophage RB69 PseT.2 TrEMBL Q7Y4S5 and bacteriophage T4 PseT.2 SwissProt Accession Number P39503;gbkey=CDS;locus_tag=T5.044;product=conserved hypothetical protein;protein_id=AAS77091.1;transl_table=11
+AY543070.1	Genbank	gene	22802	23245	.	-	.	ID=gene-T5.045;Name=T5.045;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf15c;locus_tag=T5.045
+AY543070.1	Genbank	CDS	22802	23245	.	-	0	ID=cds-AAS77092.1;Parent=gene-T5.045;Dbxref=NCBI_GP:AAS77092.1;Name=AAS77092.1;Note=similar to bacteriophage Aeh1 PseT.2 TrEMBL AAQ17937 and bacteriophage T4 PseT.2 Swiss-Prot Accession Number P39504%3B contains single transmembrane domain;gbkey=CDS;locus_tag=T5.045;product=conserved hypothetical protein;protein_id=AAS77092.1;transl_table=11
+AY543070.1	Genbank	gene	23245	23742	.	-	.	ID=gene-T5.046;Name=hegF;gbkey=Gene;gene=hegF;gene_biotype=protein_coding;gene_synonym=orf16c;locus_tag=T5.046
+AY543070.1	Genbank	CDS	23245	23742	.	-	0	ID=cds-AAS77093.1;Parent=gene-T5.046;Dbxref=NCBI_GP:AAS77093.1;Name=AAS77093.1;Note=matches to InterPro domain IPR002711;gbkey=CDS;gene=hegF;locus_tag=T5.046;product=H-N-H-endonuclease F-TflVI;protein_id=AAS77093.1;transl_table=11
+AY543070.1	Genbank	gene	23739	24437	.	-	.	ID=gene-T5.047;Name=T5.047;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.047
+AY543070.1	Genbank	CDS	23739	24437	.	-	0	ID=cds-AAS77094.1;Parent=gene-T5.047;Dbxref=NCBI_GP:AAS77094.1;Name=AAS77094.1;gbkey=CDS;locus_tag=T5.047;product=hypothetical protein;protein_id=AAS77094.1;transl_table=11
+AY543070.1	Genbank	promoter	24443	24517	.	-	.	ID=id-AY543070.1:24443..24517;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	terminator	24513	24546	.	-	.	ID=id-AY543070.1:24513..24546;Note=putative rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	gene	24592	24936	.	-	.	ID=gene-T5.048;Name=T5.048;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.048
+AY543070.1	Genbank	CDS	24592	24936	.	-	0	ID=cds-AAS77095.1;Parent=gene-T5.048;Dbxref=NCBI_GP:AAS77095.1;Name=AAS77095.1;Note=contains two transmembrane domains;gbkey=CDS;locus_tag=T5.048;product=hypothetical protein;protein_id=AAS77095.1;transl_table=11
+AY543070.1	Genbank	gene	25047	25331	.	-	.	ID=gene-T5.049;Name=T5.049;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.049
+AY543070.1	Genbank	CDS	25047	25331	.	-	0	ID=cds-AAS77096.1;Parent=gene-T5.049;Dbxref=NCBI_GP:AAS77096.1;Name=AAS77096.1;Note=contains two transmembrane domains;gbkey=CDS;locus_tag=T5.049;product=hypothetical protein;protein_id=AAS77096.1;transl_table=11
+AY543070.1	Genbank	gene	25328	25624	.	-	.	ID=gene-T5.050;Name=T5.050;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.050
+AY543070.1	Genbank	CDS	25328	25624	.	-	0	ID=cds-AAS77097.1;Parent=gene-T5.050;Dbxref=NCBI_GP:AAS77097.1;Name=AAS77097.1;gbkey=CDS;locus_tag=T5.050;product=hypothetical protein;protein_id=AAS77097.1;transl_table=11
+AY543070.1	Genbank	gene	25638	26150	.	-	.	ID=gene-T5.051;Name=hegE;gbkey=Gene;gene=hegE;gene_biotype=protein_coding;locus_tag=T5.051
+AY543070.1	Genbank	CDS	25638	26150	.	-	0	ID=cds-AAS77098.1;Parent=gene-T5.051;Dbxref=NCBI_GP:AAS77098.1;Name=AAS77098.1;gbkey=CDS;gene=hegE;locus_tag=T5.051;product=H-N-H-endonuclease F-TflV;protein_id=AAS77098.1;transl_table=11
+AY543070.1	Genbank	gene	26147	26443	.	-	.	ID=gene-T5.052;Name=T5.052;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.052
+AY543070.1	Genbank	CDS	26147	26443	.	-	0	ID=cds-AAS77099.1;Parent=gene-T5.052;Dbxref=NCBI_GP:AAS77099.1;Name=AAS77099.1;Note=contains single transmembrane domain;gbkey=CDS;locus_tag=T5.052;product=hypothetical protein;protein_id=AAS77099.1;transl_table=11
+AY543070.1	Genbank	gene	26436	26717	.	-	.	ID=gene-T5.053;Name=T5.053;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF24;locus_tag=T5.053
+AY543070.1	Genbank	CDS	26436	26717	.	-	0	ID=cds-AAS77100.1;Parent=gene-T5.053;Dbxref=NCBI_GP:AAS77100.1;Name=AAS77100.1;gbkey=CDS;locus_tag=T5.053;product=hypothetical protein;protein_id=AAS77100.1;transl_table=11
+AY543070.1	Genbank	promoter	26722	26796	.	-	.	ID=id-AY543070.1:26722..26796;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	26794	27141	.	-	.	ID=gene-T5.054;Name=T5.054;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF23;locus_tag=T5.054
+AY543070.1	Genbank	CDS	26794	27141	.	-	0	ID=cds-AAS77101.1;Parent=gene-T5.054;Dbxref=NCBI_GP:AAS77101.1;Name=AAS77101.1;gbkey=CDS;locus_tag=T5.054;product=hypothetical protein;protein_id=AAS77101.1;transl_table=11
+AY543070.1	Genbank	promoter	27162	27235	.	-	.	ID=id-AY543070.1:27162..27235;Note=promoter P10a;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	terminator	27219	27251	.	-	.	ID=id-AY543070.1:27219..27251;Note=rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	gene	27263	27574	.	-	.	ID=gene-T5.055;Name=T5.055;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF22,trn2.22;locus_tag=T5.055
+AY543070.1	Genbank	CDS	27263	27574	.	-	0	ID=cds-AAS77102.1;Parent=gene-T5.055;Dbxref=NCBI_GP:AAS77102.1;Name=AAS77102.1;gbkey=CDS;locus_tag=T5.055;product=hypothetical protein;protein_id=AAS77102.1;transl_table=11
+AY543070.1	Genbank	gene	27656	28024	.	-	.	ID=gene-T5.056;Name=T5.056;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF21,trn2.21;locus_tag=T5.056
+AY543070.1	Genbank	CDS	27656	28024	.	-	0	ID=cds-AAS77103.1;Parent=gene-T5.056;Dbxref=NCBI_GP:AAS77103.1;Name=AAS77103.1;gbkey=CDS;locus_tag=T5.056;product=putative acetyltransferase-related protein;protein_id=AAS77103.1;transl_table=11
+AY543070.1	Genbank	gene	28038	28113	.	-	.	ID=gene-tRNAM (CAU);Name=tRNAM (CAU);gbkey=Gene;gene=tRNAM (CAU);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	28038	28113	.	-	.	ID=rna-tRNAM (CAU);Parent=gene-tRNAM (CAU);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(28079..28081));gbkey=tRNA;gene=tRNAM (CAU);product=tRNA-Met
+AY543070.1	Genbank	exon	28038	28113	.	-	.	ID=exon-tRNAM (CAU)-1;Parent=rna-tRNAM (CAU);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(28079..28081));gbkey=tRNA;gene=tRNAM (CAU);product=tRNA-Met
+AY543070.1	Genbank	gene	28108	28191	.	-	.	ID=gene-T5.057;Name=T5.057;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF20,trn2.20;locus_tag=T5.057
+AY543070.1	Genbank	CDS	28108	28191	.	-	0	ID=cds-AAS77104.1;Parent=gene-T5.057;Dbxref=NCBI_GP:AAS77104.1;Name=AAS77104.1;gbkey=CDS;locus_tag=T5.057;product=hypothetical protein;protein_id=AAS77104.1;transl_table=11
+AY543070.1	Genbank	gene	28210	28286	.	-	.	ID=gene-tRNAI1 (GAU);Name=tRNAI1 (GAU);gbkey=Gene;gene=tRNAI1 (GAU);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	28210	28286	.	-	.	ID=rna-tRNAI1 (GAU);Parent=gene-tRNAI1 (GAU);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into amber suppressor;anticodon=(pos:complement(28250..28252));gbkey=tRNA;gene=tRNAI1 (GAU);product=tRNA-Ile
+AY543070.1	Genbank	exon	28210	28286	.	-	.	ID=exon-tRNAI1 (GAU)-1;Parent=rna-tRNAI1 (GAU);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into amber suppressor;anticodon=(pos:complement(28250..28252));gbkey=tRNA;gene=tRNAI1 (GAU);product=tRNA-Ile
+AY543070.1	Genbank	gene	28302	28592	.	-	.	ID=gene-T5.058;Name=T5.058;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF19,trn2.19;locus_tag=T5.058
+AY543070.1	Genbank	CDS	28302	28592	.	-	0	ID=cds-AAS77105.1;Parent=gene-T5.058;Dbxref=NCBI_GP:AAS77105.1;Name=AAS77105.1;gbkey=CDS;locus_tag=T5.058;product=hypothetical protein;protein_id=AAS77105.1;transl_table=11
+AY543070.1	Genbank	promoter	28597	28671	.	-	.	ID=id-AY543070.1:28597..28671;Note=promoter P11;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	28667	28741	.	-	.	ID=gene-tRNAT (UGU);Name=tRNAT (UGU);gbkey=Gene;gene=tRNAT (UGU);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	28667	28741	.	-	.	ID=rna-tRNAT (UGU);Parent=gene-tRNAT (UGU);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(28706..28708));gbkey=tRNA;gene=tRNAT (UGU);product=tRNA-Thr
+AY543070.1	Genbank	exon	28667	28741	.	-	.	ID=exon-tRNAT (UGU)-1;Parent=rna-tRNAT (UGU);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(28706..28708));gbkey=tRNA;gene=tRNAT (UGU);product=tRNA-Thr
+AY543070.1	Genbank	gene	28752	28916	.	-	.	ID=gene-T5.059;Name=T5.059;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=trn2.18;locus_tag=T5.059
+AY543070.1	Genbank	CDS	28752	28916	.	-	0	ID=cds-AAS77202.1;Parent=gene-T5.059;Dbxref=NCBI_GP:AAS77202.1;Name=AAS77202.1;gbkey=CDS;locus_tag=T5.059;product=hypothetical protein;protein_id=AAS77202.1;transl_table=11
+AY543070.1	Genbank	gene	28909	29160	.	-	.	ID=gene-T5.060;Name=T5.060;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF18,trn2.17;locus_tag=T5.060
+AY543070.1	Genbank	CDS	28909	29160	.	-	0	ID=cds-AAS77106.1;Parent=gene-T5.060;Dbxref=NCBI_GP:AAS77106.1;Name=AAS77106.1;gbkey=CDS;locus_tag=T5.060;product=hypothetical protein;protein_id=AAS77106.1;transl_table=11
+AY543070.1	Genbank	gene	29177	29252	.	-	.	ID=gene-tRNAG1 (UCC);Name=tRNAG1 (UCC);gbkey=Gene;gene=tRNAG1 (UCC);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	29177	29252	.	-	.	ID=rna-tRNAG1 (UCC);Parent=gene-tRNAG1 (UCC);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(29218..29220));gbkey=tRNA;gene=tRNAG1 (UCC);product=tRNA-Gly
+AY543070.1	Genbank	exon	29177	29252	.	-	.	ID=exon-tRNAG1 (UCC)-1;Parent=rna-tRNAG1 (UCC);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(29218..29220));gbkey=tRNA;gene=tRNAG1 (UCC);product=tRNA-Gly
+AY543070.1	Genbank	gene	29260	29337	.	-	.	ID=gene-tRNAQ1 (UUG);Name=tRNAQ1 (UUG);gbkey=Gene;gene=tRNAQ1 (UUG);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	29260	29337	.	-	.	ID=rna-tRNAQ1 (UUG);Parent=gene-tRNAQ1 (UUG);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(29299..29301));gbkey=tRNA;gene=tRNAQ1 (UUG);product=tRNA-Gln
+AY543070.1	Genbank	exon	29260	29337	.	-	.	ID=exon-tRNAQ1 (UUG)-1;Parent=rna-tRNAQ1 (UUG);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(29299..29301));gbkey=tRNA;gene=tRNAQ1 (UUG);product=tRNA-Gln
+AY543070.1	Genbank	modified_DNA_base	29281	29281	.	-	.	ID=id-tRNAQ1 (UUG);gbkey=modified_base;gene=tRNAQ1 (UUG);mod_base=p
+AY543070.1	Genbank	modified_DNA_base	29282	29282	.	-	.	ID=id-tRNAQ1 (UUG)-2;gbkey=modified_base;gene=tRNAQ1 (UUG);mod_base=t
+AY543070.1	Genbank	modified_DNA_base	29295	29295	.	-	.	ID=id-tRNAQ1 (UUG)-3;gbkey=modified_base;gene=tRNAQ1 (UUG);mod_base=p
+AY543070.1	Genbank	pseudogene	29344	29419	.	-	.	ID=gene-tRNAQ2 (CUG);Name=tRNAQ2 (CUG);gbkey=Gene;gene=tRNAQ2 (CUG);gene_biotype=tRNA_pseudogene;pseudo=true
+AY543070.1	Genbank	pseudogenic_tRNA	29344	29419	.	-	.	ID=rna-tRNAQ2 (CUG);Parent=gene-tRNAQ2 (CUG);anticodon=(pos:complement(29383..29385));gbkey=tRNA;gene=tRNAQ2 (CUG);product=tRNA-Gln;pseudo=true
+AY543070.1	Genbank	exon	29344	29419	.	-	.	ID=exon-tRNAQ2 (CUG)-1;Parent=rna-tRNAQ2 (CUG);anticodon=(pos:complement(29383..29385));gbkey=tRNA;gene=tRNAQ2 (CUG);product=tRNA-Gln;pseudo=true
+AY543070.1	Genbank	gene	29397	29978	.	-	.	ID=gene-T5.061;Name=hegD;gbkey=Gene;gene=hegD;gene_biotype=protein_coding;locus_tag=T5.061
+AY543070.1	Genbank	CDS	29397	29978	.	-	0	ID=cds-AAS77107.1;Parent=gene-T5.061;Dbxref=NCBI_GP:AAS77107.1;Name=AAS77107.1;Note=matches to InterPro domains IPR002711 and IPR010902;gbkey=CDS;gene=hegD;locus_tag=T5.061;product=H-N-H endonuclease F-TflII;protein_id=AAS77107.1;transl_table=11
+AY543070.1	Genbank	gene	29980	30180	.	-	.	ID=gene-T5.062;Name=T5.062;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF16,trn2.15;locus_tag=T5.062
+AY543070.1	Genbank	CDS	29980	30180	.	-	0	ID=cds-AAS77108.1;Parent=gene-T5.062;Dbxref=NCBI_GP:AAS77108.1;Name=AAS77108.1;gbkey=CDS;locus_tag=T5.062;product=hypothetical protein;protein_id=AAS77108.1;transl_table=11
+AY543070.1	Genbank	gene	30206	30283	.	-	.	ID=gene-tRNAH (GUG);Name=tRNAH (GUG);gbkey=Gene;gene=tRNAH (GUG);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	30206	30283	.	-	.	ID=rna-tRNAH (GUG);Parent=gene-tRNAH (GUG);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(30246..30248));gbkey=tRNA;gene=tRNAH (GUG);product=tRNA-His
+AY543070.1	Genbank	exon	30206	30283	.	-	.	ID=exon-tRNAH (GUG)-1;Parent=rna-tRNAH (GUG);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(30246..30248));gbkey=tRNA;gene=tRNAH (GUG);product=tRNA-His
+AY543070.1	Genbank	gene	30284	30389	.	-	.	ID=gene-rnaIII;Name=rnaIII;gbkey=Gene;gene=rnaIII;gene_biotype=misc_RNA
+AY543070.1	Genbank	transcript	30284	30389	.	-	.	ID=rna-rnaIII;Parent=gene-rnaIII;Note=stable RNA with unknown functions;gbkey=misc_RNA;gene=rnaIII;product=RNAIII
+AY543070.1	Genbank	exon	30284	30389	.	-	.	ID=exon-rnaIII-1;Parent=rna-rnaIII;Note=stable RNA with unknown functions;gbkey=misc_RNA;gene=rnaIII;product=RNAIII
+AY543070.1	Genbank	gene	30394	30500	.	-	.	ID=gene-rnaI;Name=rnaI;gbkey=Gene;gene=rnaI;gene_biotype=misc_RNA
+AY543070.1	Genbank	transcript	30394	30500	.	-	.	ID=rna-rnaI;Parent=gene-rnaI;Note=stable RNA with unknown functions;gbkey=misc_RNA;gene=rnaI;product=RNAI
+AY543070.1	Genbank	exon	30394	30500	.	-	.	ID=exon-rnaI-1;Parent=rna-rnaI;Note=stable RNA with unknown functions;gbkey=misc_RNA;gene=rnaI;product=RNAI
+AY543070.1	Genbank	gene	30501	30644	.	-	.	ID=gene-rna1;Name=rna1;gbkey=Gene;gene=rna1;gene_biotype=misc_RNA
+AY543070.1	Genbank	transcript	30501	30644	.	-	.	ID=rna-rna1;Parent=gene-rna1;Note=tRNA-like stable RNA with unknown functions;gbkey=misc_RNA;gene=rna1;product=RNA1
+AY543070.1	Genbank	exon	30501	30644	.	-	.	ID=exon-rna1-1;Parent=rna-rna1;Note=tRNA-like stable RNA with unknown functions;gbkey=misc_RNA;gene=rna1;product=RNA1
+AY543070.1	Genbank	gene	30651	30824	.	-	.	ID=gene-T5.063;Name=T5.063;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF15,trn2.14;locus_tag=T5.063
+AY543070.1	Genbank	CDS	30651	30824	.	-	0	ID=cds-AAS77109.1;Parent=gene-T5.063;Dbxref=NCBI_GP:AAS77109.1;Name=AAS77109.1;gbkey=CDS;locus_tag=T5.063;product=hypothetical protein;protein_id=AAS77109.1;transl_table=11
+AY543070.1	Genbank	gene	30845	30934	.	-	.	ID=gene-tRNAS1 (UGA);Name=tRNAS1 (UGA);gbkey=Gene;gene=tRNAS1 (UGA);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	30845	30934	.	-	.	ID=rna-tRNAS1 (UGA);Parent=gene-tRNAS1 (UGA);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(30899..30901));gbkey=tRNA;gene=tRNAS1 (UGA);product=tRNA-Ser
+AY543070.1	Genbank	exon	30845	30934	.	-	.	ID=exon-tRNAS1 (UGA)-1;Parent=rna-tRNAS1 (UGA);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(30899..30901));gbkey=tRNA;gene=tRNAS1 (UGA);product=tRNA-Ser
+AY543070.1	Genbank	gene	30942	31035	.	-	.	ID=gene-tRNAS2 (GGA);Name=tRNAS2 (GGA);gbkey=Gene;gene=tRNAS2 (GGA);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	30942	31035	.	-	.	ID=rna-tRNAS2 (GGA);Parent=gene-tRNAS2 (GGA);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(30999..31001));gbkey=tRNA;gene=tRNAS2 (GGA);product=tRNA-Ser
+AY543070.1	Genbank	exon	30942	31035	.	-	.	ID=exon-tRNAS2 (GGA)-1;Parent=rna-tRNAS2 (GGA);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(30999..31001));gbkey=tRNA;gene=tRNAS2 (GGA);product=tRNA-Ser
+AY543070.1	Genbank	gene	31022	31606	.	-	.	ID=gene-T5.064;Name=hegC;gbkey=Gene;gene=hegC;gene_biotype=protein_coding;locus_tag=T5.064
+AY543070.1	Genbank	CDS	31022	31606	.	-	0	ID=cds-AAS77110.1;Parent=gene-T5.064;Dbxref=NCBI_GP:AAS77110.1;Name=AAS77110.1;Note=matches to IPR domains IPR002711 and IPR010902;gbkey=CDS;gene=hegC;locus_tag=T5.064;product=H-N-H endonuclease TflI;protein_id=AAS77110.1;transl_table=11
+AY543070.1	Genbank	gene	31624	31708	.	-	.	ID=gene-tRNAL1 (UAG);Name=tRNAL1 (UAG);gbkey=Gene;gene=tRNAL1 (UAG);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	31624	31708	.	-	.	ID=rna-tRNAL1 (UAG);Parent=gene-tRNAL1 (UAG);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into amber suppressor;anticodon=(pos:complement(31672..31674));gbkey=tRNA;gene=tRNAL1 (UAG);product=tRNA-Leu
+AY543070.1	Genbank	exon	31624	31708	.	-	.	ID=exon-tRNAL1 (UAG)-1;Parent=rna-tRNAL1 (UAG);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into amber suppressor;anticodon=(pos:complement(31672..31674));gbkey=tRNA;gene=tRNAL1 (UAG);product=tRNA-Leu
+AY543070.1	Genbank	modified_DNA_base	31645	31645	.	-	.	ID=id-tRNAL1 (UAG);gbkey=modified_base;gene=tRNAL1 (UAG);mod_base=p
+AY543070.1	Genbank	modified_DNA_base	31646	31646	.	-	.	ID=id-tRNAL1 (UAG)-2;gbkey=modified_base;gene=tRNAL1 (UAG);mod_base=t
+AY543070.1	Genbank	modified_DNA_base	31669	31669	.	-	.	ID=id-tRNAL1 (UAG)-3;gbkey=modified_base;gene=tRNAL1 (UAG);mod_base=p
+AY543070.1	Genbank	modified_DNA_base	31671	31671	.	-	.	ID=id-tRNAL1 (UAG)-4;gbkey=modified_base;gene=tRNAL1 (UAG);mod_base=m6a
+AY543070.1	Genbank	modified_DNA_base	31689	31689	.	-	.	ID=id-tRNAL1 (UAG)-5;gbkey=modified_base;gene=tRNAL1 (UAG);mod_base=d
+AY543070.1	Genbank	modified_DNA_base	31691	31691	.	-	.	ID=id-tRNAL1 (UAG)-6;gbkey=modified_base;gene=tRNAL1 (UAG);mod_base=gm
+AY543070.1	Genbank	modified_DNA_base	31692	31692	.	-	.	ID=id-tRNAL1 (UAG)-7;gbkey=modified_base;gene=tRNAL1 (UAG);mod_base=d
+AY543070.1	Genbank	gene	31714	31788	.	-	.	ID=gene-tRNAA (UGC);Name=tRNAA (UGC);gbkey=Gene;gene=tRNAA (UGC);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	31714	31788	.	-	.	ID=rna-tRNAA (UGC);Parent=gene-tRNAA (UGC);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(31753..31755));gbkey=tRNA;gene=tRNAA (UGC);product=tRNA-Ala
+AY543070.1	Genbank	exon	31714	31788	.	-	.	ID=exon-tRNAA (UGC)-1;Parent=rna-tRNAA (UGC);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(31753..31755));gbkey=tRNA;gene=tRNAA (UGC);product=tRNA-Ala
+AY543070.1	Genbank	gene	31808	31979	.	-	.	ID=gene-rna2H;Name=rna2H;gbkey=Gene;gene=rna2H;gene_biotype=misc_RNA
+AY543070.1	Genbank	transcript	31808	31979	.	-	.	ID=rna-rna2H;Parent=gene-rna2H;Note=stable RNA with unknown functions;gbkey=misc_RNA;gene=rna2H;product=RNA2H
+AY543070.1	Genbank	exon	31808	31979	.	-	.	ID=exon-rna2H-1;Parent=rna-rna2H;Note=stable RNA with unknown functions;gbkey=misc_RNA;gene=rna2H;product=RNA2H
+AY543070.1	Genbank	promoter	32001	32075	.	-	.	ID=id-AY543070.1:32001..32075;Note=promoter P13b;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	32081	32239	.	-	.	ID=gene-tRNAV (UAC);Name=tRNAV (UAC);gbkey=Gene;gene=tRNAV (UAC);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	32081	32154	.	-	.	ID=rna-tRNAV (UAC);Parent=gene-tRNAV (UAC);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(32120..32122));gbkey=tRNA;gene=tRNAV (UAC);product=tRNA-Val
+AY543070.1	Genbank	exon	32081	32154	.	-	.	ID=exon-tRNAV (UAC)-1;Parent=rna-tRNAV (UAC);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(32120..32122));gbkey=tRNA;gene=tRNAV (UAC);product=tRNA-Val
+AY543070.1	Genbank	gene	32162	32239	.	-	.	ID=gene-tRNAK (UUU);Name=tRNAK (UUU);gbkey=Gene;gene=tRNAK (UUU);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	32162	32239	.	-	.	ID=rna-tRNAK (UUU);Parent=gene-tRNAK (UUU);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(32202..32204));gbkey=tRNA;gene=tRNAK (UUU);product=tRNA-Lys
+AY543070.1	Genbank	exon	32162	32239	.	-	.	ID=exon-tRNAK (UUU)-1;Parent=rna-tRNAK (UUU);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(32202..32204));gbkey=tRNA;gene=tRNAK (UUU);product=tRNA-Lys
+AY543070.1	Genbank	gene	32240	32407	.	-	.	ID=gene-T5.065;Name=T5.065;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF13,trn2.12;locus_tag=T5.065
+AY543070.1	Genbank	CDS	32240	32407	.	-	0	ID=cds-AAS77111.1;Parent=gene-T5.065;Dbxref=NCBI_GP:AAS77111.1;Name=AAS77111.1;gbkey=CDS;locus_tag=T5.065;product=hypothetical protein;protein_id=AAS77111.1;transl_table=11
+AY543070.1	Genbank	gene	32428	32505	.	-	.	ID=gene-tRNAfM (CAU);Name=tRNAfM (CAU);gbkey=Gene;gene=tRNAfM (CAU);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	32428	32505	.	-	.	ID=rna-tRNAfM (CAU);Parent=gene-tRNAfM (CAU);Note=initiator tRNA fMet;anticodon=(pos:complement(32469..32471));gbkey=tRNA;gene=tRNAfM (CAU);product=tRNA-Met
+AY543070.1	Genbank	exon	32428	32505	.	-	.	ID=exon-tRNAfM (CAU)-1;Parent=rna-tRNAfM (CAU);Note=initiator tRNA fMet;anticodon=(pos:complement(32469..32471));gbkey=tRNA;gene=tRNAfM (CAU);product=tRNA-Met
+AY543070.1	Genbank	gene	32512	32588	.	-	.	ID=gene-tRNAP (UGG);Name=tRNAP (UGG);gbkey=Gene;gene=tRNAP (UGG);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	32512	32588	.	-	.	ID=rna-tRNAP (UGG);Parent=gene-tRNAP (UGG);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into amber suppressor;anticodon=(pos:complement(32552..32554));gbkey=tRNA;gene=tRNAP (UGG);product=tRNA-Pro
+AY543070.1	Genbank	exon	32512	32588	.	-	.	ID=exon-tRNAP (UGG)-1;Parent=rna-tRNAP (UGG);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into amber suppressor;anticodon=(pos:complement(32552..32554));gbkey=tRNA;gene=tRNAP (UGG);product=tRNA-Pro
+AY543070.1	Genbank	modified_DNA_base	32533	32533	.	-	.	ID=id-tRNAP (UGG);gbkey=modified_base;gene=tRNAP (UGG);mod_base=p
+AY543070.1	Genbank	modified_DNA_base	32534	32534	.	-	.	ID=id-tRNAP (UGG)-2;gbkey=modified_base;gene=tRNAP (UGG);mod_base=t
+AY543070.1	Genbank	modified_DNA_base	32542	32542	.	-	.	ID=id-tRNAP (UGG)-3;gbkey=modified_base;gene=tRNAP (UGG);mod_base=m7g
+AY543070.1	Genbank	modified_DNA_base	32551	32551	.	-	.	ID=id-tRNAP (UGG)-4;gbkey=modified_base;gene=tRNAP (UGG);mod_base=m1g
+AY543070.1	Genbank	modified_DNA_base	32568	32568	.	-	.	ID=id-tRNAP (UGG)-5;gbkey=modified_base;gene=tRNAP (UGG);mod_base=d
+AY543070.1	Genbank	gene	32593	32751	.	-	.	ID=gene-T5.066;Name=T5.066;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF12,trn2.11;locus_tag=T5.066
+AY543070.1	Genbank	CDS	32593	32751	.	-	0	ID=cds-AAS77112.1;Parent=gene-T5.066;Dbxref=NCBI_GP:AAS77112.1;Name=AAS77112.1;Note=contains two transmembrane domains;gbkey=CDS;locus_tag=T5.066;product=hypothetical protein;protein_id=AAS77112.1;transl_table=11
+AY543070.1	Genbank	promoter	32757	32831	.	-	.	ID=id-AY543070.1:32757..32831;Note=promoter P13a;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	32838	32940	.	-	.	ID=gene-rnaIV;Name=rnaIV;gbkey=Gene;gene=rnaIV;gene_biotype=misc_RNA
+AY543070.1	Genbank	transcript	32838	32940	.	-	.	ID=rna-rnaIV;Parent=gene-rnaIV;Note=stable RNA with unknown functions;gbkey=misc_RNA;gene=rnaIV;product=RNAIV
+AY543070.1	Genbank	exon	32838	32940	.	-	.	ID=exon-rnaIV-1;Parent=rna-rnaIV;Note=stable RNA with unknown functions;gbkey=misc_RNA;gene=rnaIV;product=RNAIV
+AY543070.1	Genbank	gene	32959	33083	.	-	.	ID=gene-rna2;Name=rna2;gbkey=Gene;gene=rna2;gene_biotype=misc_RNA
+AY543070.1	Genbank	transcript	32959	33083	.	-	.	ID=rna-rna2;Parent=gene-rna2;Note=tRNA-like stable RNA with unknown functions;gbkey=misc_RNA;gene=rna2;product=RNA2
+AY543070.1	Genbank	exon	32959	33083	.	-	.	ID=exon-rna2-1;Parent=rna-rna2;Note=tRNA-like stable RNA with unknown functions;gbkey=misc_RNA;gene=rna2;product=RNA2
+AY543070.1	Genbank	gene	33205	33552	.	-	.	ID=gene-T5.067;Name=T5.067;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF1,ORF11,trn2.10;locus_tag=T5.067
+AY543070.1	Genbank	CDS	33205	33552	.	-	0	ID=cds-AAS77113.1;Parent=gene-T5.067;Dbxref=NCBI_GP:AAS77113.1;Name=AAS77113.1;Note=similar to ORF17 TrEMBL Q8LTM6 and protein 38 TrEMBL Q9CFQ4;gbkey=CDS;locus_tag=T5.067;product=conserved hypothetical protein;protein_id=AAS77113.1;transl_table=11
+AY543070.1	Genbank	gene	33578	33654	.	-	.	ID=gene-tRNAD (GUC);Name=tRNAD (GUC);gbkey=Gene;gene=tRNAD (GUC);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	33578	33654	.	-	.	ID=rna-tRNAD (GUC);Parent=gene-tRNAD (GUC);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(33618..33620));gbkey=tRNA;gene=tRNAD (GUC);product=tRNA-Asp
+AY543070.1	Genbank	exon	33578	33654	.	-	.	ID=exon-tRNAD (GUC)-1;Parent=rna-tRNAD (GUC);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(33618..33620));gbkey=tRNA;gene=tRNAD (GUC);product=tRNA-Asp
+AY543070.1	Genbank	modified_DNA_base	33589	33589	.	-	.	ID=id-tRNAD (GUC);gbkey=modified_base;gene=tRNAD (GUC);mod_base=p
+AY543070.1	Genbank	modified_DNA_base	33599	33599	.	-	.	ID=id-tRNAD (GUC)-2;gbkey=modified_base;gene=tRNAD (GUC);mod_base=p
+AY543070.1	Genbank	modified_DNA_base	33600	33600	.	-	.	ID=id-tRNAD (GUC)-3;gbkey=modified_base;gene=tRNAD (GUC);mod_base=t
+AY543070.1	Genbank	gene	33664	33849	.	-	.	ID=gene-T5.068;Name=T5.068;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF10,ORF2,trn2.9;locus_tag=T5.068
+AY543070.1	Genbank	CDS	33664	33849	.	-	0	ID=cds-AAS77114.1;Parent=gene-T5.068;Dbxref=NCBI_GP:AAS77114.1;Name=AAS77114.1;gbkey=CDS;locus_tag=T5.068;product=hypothetical protein;protein_id=AAS77114.1;transl_table=11
+AY543070.1	Genbank	gene	33877	33949	.	-	.	ID=gene-rna3;Name=rna3;gbkey=Gene;gene=rna3;gene_biotype=misc_RNA
+AY543070.1	Genbank	transcript	33877	33949	.	-	.	ID=rna-rna3;Parent=gene-rna3;Note=putative tRNA-like RNA;gbkey=misc_RNA;gene=rna3;product=RNA3
+AY543070.1	Genbank	exon	33877	33949	.	-	.	ID=exon-rna3-1;Parent=rna-rna3;Note=putative tRNA-like RNA;gbkey=misc_RNA;gene=rna3;product=RNA3
+AY543070.1	Genbank	gene	33952	34029	.	-	.	ID=gene-tRNAN (GUU);Name=tRNAN (GUU);gbkey=Gene;gene=tRNAN (GUU);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	33952	34029	.	-	.	ID=rna-tRNAN (GUU);Parent=gene-tRNAN (GUU);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(33992..33994));gbkey=tRNA;gene=tRNAN (GUU);product=tRNA-Asn
+AY543070.1	Genbank	exon	33952	34029	.	-	.	ID=exon-tRNAN (GUU)-1;Parent=rna-tRNAN (GUU);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(33992..33994));gbkey=tRNA;gene=tRNAN (GUU);product=tRNA-Asn
+AY543070.1	Genbank	modified_DNA_base	33973	33973	.	-	.	ID=id-tRNAN (GUU);gbkey=modified_base;gene=tRNAN (GUU);mod_base=p
+AY543070.1	Genbank	modified_DNA_base	33974	33974	.	-	.	ID=id-tRNAN (GUU)-2;gbkey=modified_base;gene=tRNAN (GUU);mod_base=t
+AY543070.1	Genbank	modified_DNA_base	33982	33982	.	-	.	ID=id-tRNAN (GUU)-3;gbkey=modified_base;gene=tRNAN (GUU);mod_base=m7g
+AY543070.1	Genbank	modified_DNA_base	33988	33988	.	-	.	ID=id-tRNAN (GUU)-4;gbkey=modified_base;gene=tRNAN (GUU);mod_base=p
+AY543070.1	Genbank	modified_DNA_base	33991	33991	.	-	.	ID=id-tRNAN (GUU)-5;Note=derivative of adenosine;gbkey=modified_base;gene=tRNAN (GUU);mod_base=OTHER
+AY543070.1	Genbank	modified_DNA_base	34009	34009	.	-	.	ID=id-tRNAN (GUU)-6;gbkey=modified_base;gene=tRNAN (GUU);mod_base=d
+AY543070.1	Genbank	gene	34006	34524	.	-	.	ID=gene-T5.069;Name=T5.069;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF172 aa,ORF9,trn2.8;locus_tag=T5.069
+AY543070.1	Genbank	CDS	34006	34524	.	-	0	ID=cds-AAS77115.1;Parent=gene-T5.069;Dbxref=NCBI_GP:AAS77115.1;Name=AAS77115.1;gbkey=CDS;locus_tag=T5.069;product=hypothetical protein;protein_id=AAS77115.1;transl_table=11
+AY543070.1	Genbank	gene	34546	34621	.	-	.	ID=gene-tRNAC (GCA);Name=tRNAC (GCA);gbkey=Gene;gene=tRNAC (GCA);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	34546	34621	.	-	.	ID=rna-tRNAC (GCA);Parent=gene-tRNAC (GCA);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(34586..34588));gbkey=tRNA;gene=tRNAC (GCA);product=tRNA-Cys
+AY543070.1	Genbank	exon	34546	34621	.	-	.	ID=exon-tRNAC (GCA)-1;Parent=rna-tRNAC (GCA);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(34586..34588));gbkey=tRNA;gene=tRNAC (GCA);product=tRNA-Cys
+AY543070.1	Genbank	gene	34627	34755	.	-	.	ID=gene-T5.070;Name=T5.070;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF42aa,ORF8,trn2.7;locus_tag=T5.070
+AY543070.1	Genbank	CDS	34627	34755	.	-	0	ID=cds-AAS77116.1;Parent=gene-T5.070;Dbxref=NCBI_GP:AAS77116.1;Name=AAS77116.1;gbkey=CDS;locus_tag=T5.070;product=hypothetical protein;protein_id=AAS77116.1;transl_table=11
+AY543070.1	Genbank	promoter	34759	34833	.	-	.	ID=id-AY543070.1:34759..34833;Note=promoter P14b;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	34806	35078	.	-	.	ID=gene-T5.071;Name=T5.071;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF7,ORF90aa,trn2.6;locus_tag=T5.071
+AY543070.1	Genbank	CDS	34806	35078	.	-	0	ID=cds-AAS77117.1;Parent=gene-T5.071;Dbxref=NCBI_GP:AAS77117.1;Name=AAS77117.1;gbkey=CDS;locus_tag=T5.071;product=hypothetical protein;protein_id=AAS77117.1;transl_table=11
+AY543070.1	Genbank	gene	35096	35170	.	-	.	ID=gene-tRNAF (GAA);Name=tRNAF (GAA);gbkey=Gene;gene=tRNAF (GAA);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	35096	35170	.	-	.	ID=rna-tRNAF (GAA);Parent=gene-tRNAF (GAA);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this trNA into amber suppressor;anticodon=(pos:complement(35135..35137));gbkey=tRNA;gene=tRNAF (GAA);product=tRNA-Phe
+AY543070.1	Genbank	exon	35096	35170	.	-	.	ID=exon-tRNAF (GAA)-1;Parent=rna-tRNAF (GAA);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this trNA into amber suppressor;anticodon=(pos:complement(35135..35137));gbkey=tRNA;gene=tRNAF (GAA);product=tRNA-Phe
+AY543070.1	Genbank	gene	35177	35247	.	-	.	ID=gene-tRNAW (CCA);Name=tRNAW (CCA);gbkey=Gene;gene=tRNAW (CCA);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	35177	35247	.	-	.	ID=rna-tRNAW (CCA);Parent=gene-tRNAW (CCA);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(35216..35218));gbkey=tRNA;gene=tRNAW (CCA);product=tRNA-Trp
+AY543070.1	Genbank	exon	35177	35247	.	-	.	ID=exon-tRNAW (CCA)-1;Parent=rna-tRNAW (CCA);Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(35216..35218));gbkey=tRNA;gene=tRNAW (CCA);product=tRNA-Trp
+AY543070.1	Genbank	gene	35257	35333	.	-	.	ID=gene-tRNAE (UUC);Name=tRNAE (UUC);gbkey=Gene;gene=tRNAE (UUC);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	35257	35333	.	-	.	ID=rna-tRNAE (UUC);Parent=gene-tRNAE (UUC);Note=replacement of the anticodon with 5-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(35297..35299));gbkey=tRNA;gene=tRNAE (UUC);product=tRNA-Glu
+AY543070.1	Genbank	exon	35257	35333	.	-	.	ID=exon-tRNAE (UUC)-1;Parent=rna-tRNAE (UUC);Note=replacement of the anticodon with 5-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(35297..35299));gbkey=tRNA;gene=tRNAE (UUC);product=tRNA-Glu
+AY543070.1	Genbank	gene	35340	35427	.	-	.	ID=gene-tRNAY (GUA);Name=tRNAY (GUA);gbkey=Gene;gene=tRNAY (GUA);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	35340	35427	.	-	.	ID=rna-tRNAY (GUA);Parent=gene-tRNAY (GUA);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(35390..35392));gbkey=tRNA;gene=tRNAY (GUA);product=tRNA-Tyr
+AY543070.1	Genbank	exon	35340	35427	.	-	.	ID=exon-tRNAY (GUA)-1;Parent=rna-tRNAY (GUA);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(35390..35392));gbkey=tRNA;gene=tRNAY (GUA);product=tRNA-Tyr
+AY543070.1	Genbank	promoter	35524	35598	.	-	.	ID=id-AY543070.1:35524..35598;Note=promoter P14a;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	35617	35892	.	-	.	ID=gene-T5.072;Name=T5.072;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF6,ORF91aa,trn2.5;locus_tag=T5.072
+AY543070.1	Genbank	CDS	35617	35892	.	-	0	ID=cds-AAS77118.1;Parent=gene-T5.072;Dbxref=NCBI_GP:AAS77118.1;Name=AAS77118.1;gbkey=CDS;locus_tag=T5.072;product=hypothetical protein;protein_id=AAS77118.1;transl_table=11
+AY543070.1	Genbank	promoter	35897	35971	.	-	.	ID=id-AY543070.1:35897..35971;Note=promoter P15c;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	35983	36189	.	-	.	ID=gene-T5.073;Name=T5.073;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF5,trn2.4;locus_tag=T5.073
+AY543070.1	Genbank	CDS	35983	36189	.	-	0	ID=cds-AAS77119.1;Parent=gene-T5.073;Dbxref=NCBI_GP:AAS77119.1;Name=AAS77119.1;gbkey=CDS;locus_tag=T5.073;product=hypothetical protein;protein_id=AAS77119.1;transl_table=11
+AY543070.1	Genbank	gene	36182	36349	.	-	.	ID=gene-T5.074;Name=T5.074;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF4,trn2.3;locus_tag=T5.074
+AY543070.1	Genbank	CDS	36182	36349	.	-	0	ID=cds-AAS77120.1;Parent=gene-T5.074;Dbxref=NCBI_GP:AAS77120.1;Name=AAS77120.1;gbkey=CDS;locus_tag=T5.074;product=hypothetical protein;protein_id=AAS77120.1;transl_table=11
+AY543070.1	Genbank	gene	36379	37062	.	-	.	ID=gene-T5.075;Name=hegA;gbkey=Gene;gene=hegA;gene_biotype=protein_coding;locus_tag=T5.075
+AY543070.1	Genbank	CDS	36379	37062	.	-	0	ID=cds-AAS77121.1;Parent=gene-T5.075;Dbxref=NCBI_GP:AAS77121.1;Name=AAS77121.1;Note=matches to InterPro domains IPR003615%2C IPR000792 and IPR002197;gbkey=CDS;gene=hegA;locus_tag=T5.075;product=H-N-H endonuclease TflIV;protein_id=AAS77121.1;transl_table=11
+AY543070.1	Genbank	gene	37086	37163	.	-	.	ID=gene-tRNAI2 (CAU);Name=tRNAI2 (CAU);gbkey=Gene;gene=tRNAI2 (CAU);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	37086	37163	.	-	.	ID=rna-tRNAI2 (CAU);Parent=gene-tRNAI2 (CAU);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into amber suppressor;anticodon=(pos:complement(37127..37129));gbkey=tRNA;gene=tRNAI2 (CAU);product=tRNA-Ile
+AY543070.1	Genbank	exon	37086	37163	.	-	.	ID=exon-tRNAI2 (CAU)-1;Parent=rna-tRNAI2 (CAU);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into amber suppressor;anticodon=(pos:complement(37127..37129));gbkey=tRNA;gene=tRNAI2 (CAU);product=tRNA-Ile
+AY543070.1	Genbank	gene	37170	37258	.	-	.	ID=gene-tRNAS3 (GCU);Name=tRNAS3 (GCU);gbkey=Gene;gene=tRNAS3 (GCU);gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	37170	37258	.	-	.	ID=rna-tRNAS3 (GCU);Parent=gene-tRNAS3 (GCU);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(37224..37226));gbkey=tRNA;gene=tRNAS3 (GCU);product=tRNA-Ser
+AY543070.1	Genbank	exon	37170	37258	.	-	.	ID=exon-tRNAS3 (GCU)-1;Parent=rna-tRNAS3 (GCU);Note=replacement of the anticodon with 5'-CAU-3' sequence converts this tRNA into effective amber suppressor;anticodon=(pos:complement(37224..37226));gbkey=tRNA;gene=tRNAS3 (GCU);product=tRNA-Ser
+AY543070.1	Genbank	promoter	37247	37321	.	-	.	ID=id-AY543070.1:37247..37321;Note=promoter P15b;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	37279	37797	.	-	.	ID=gene-T5.076;Name=T5.076;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF2,trn2.1;locus_tag=T5.076
+AY543070.1	Genbank	CDS	37279	37797	.	-	0	ID=cds-AAS77122.1;Parent=gene-T5.076;Dbxref=NCBI_GP:AAS77122.1;Name=AAS77122.1;gbkey=CDS;locus_tag=T5.076;product=hypothetical protein;protein_id=AAS77122.1;transl_table=11
+AY543070.1	Genbank	promoter	37802	37876	.	-	.	ID=id-AY543070.1:37802..37876;Note=promoter P15a;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	promoter	37954	38028	.	+	.	ID=id-AY543070.1:37954..38028;Note=promoter P12;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	38064	39029	.	+	.	ID=gene-T5.077;Name=T5.077;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf321aa,ORF3c-ORF4c;locus_tag=T5.077
+AY543070.1	Genbank	CDS	38064	39029	.	+	0	ID=cds-AAS77123.1;Parent=gene-T5.077;Dbxref=NCBI_GP:AAS77123.1;Name=AAS77123.1;gbkey=CDS;locus_tag=T5.077;product=hypothetical protein;protein_id=AAS77123.1;transl_table=11
+AY543070.1	Genbank	gene	39051	39467	.	+	.	ID=gene-T5.078;Name=T5.078;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF138aa;locus_tag=T5.078
+AY543070.1	Genbank	CDS	39051	39467	.	+	0	ID=cds-AAS77124.1;Parent=gene-T5.078;Dbxref=NCBI_GP:AAS77124.1;Name=AAS77124.1;gbkey=CDS;locus_tag=T5.078;product=hypothetical protein;protein_id=AAS77124.1;transl_table=11
+AY543070.1	Genbank	CDS	39477	39671	.	+	0	ID=cds-AAS77125.1;Dbxref=NCBI_GP:AAS77125.1;Name=AAS77125.1;gbkey=CDS;product=hypothetical protein;protein_id=AAS77125.1;transl_table=11
+AY543070.1	Genbank	gene	39477	39671	.	-	.	ID=gene-T5.079;Name=T5.079;gbkey=Gene;gene_biotype=other;gene_synonym=ORF1c,orf64aa;locus_tag=T5.079
+AY543070.1	Genbank	terminator	39678	39720	.	+	.	ID=id-AY543070.1:39678..39720;Note=efficient bidirectional rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	sequence_feature	39746	39747	.	-	.	ID=id-AY543070.1:39746..39747;Note=major DNA single-chain interruption%3B identified by match to the consensus sequence 5'NPu pGCGCN-3' surrounding an interruption;gbkey=misc_feature
+AY543070.1	Genbank	gene	39791	40738	.	-	.	ID=gene-T5.080;Name=T5.080;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=ORF1,trn1.1;locus_tag=T5.080
+AY543070.1	Genbank	CDS	39791	40738	.	-	0	ID=cds-AAS77126.1;Parent=gene-T5.080;Dbxref=NCBI_GP:AAS77126.1;Name=AAS77126.1;Note=similar to AEH1ORF064C TrEMBL AAQ17724%2C and 44RRORF098C TrEMBL AAQ81417%3B contains single transmembrane domain;gbkey=CDS;locus_tag=T5.080;product=conserved hypothetical protein;protein_id=AAS77126.1;transl_table=11
+AY543070.1	Genbank	gene	40773	40847	.	-	.	ID=gene-tRNAR;Name=tRNAR;gbkey=Gene;gene=tRNAR;gene_biotype=tRNA
+AY543070.1	Genbank	tRNA	40773	40847	.	-	.	ID=rna-tRNAR;Parent=gene-tRNAR;Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(40813..40815));gbkey=tRNA;gene=tRNAR;product=tRNA-Arg
+AY543070.1	Genbank	exon	40773	40847	.	-	.	ID=exon-tRNAR-1;Parent=rna-tRNAR;Note=replacement of the anticodon with 5'-CAU-3' sequence does not convert this tRNA into amber suppressor;anticodon=(pos:complement(40813..40815));gbkey=tRNA;gene=tRNAR;product=tRNA-Arg
+AY543070.1	Genbank	gene	40848	41566	.	-	.	ID=gene-rnaX;Name=rnaX;gbkey=Gene;gene=rnaX;gene_biotype=misc_RNA
+AY543070.1	Genbank	transcript	40848	41566	.	-	.	ID=rna-rnaX;Parent=gene-rnaX;Note=stable RNA with unknown functions;gbkey=misc_RNA;gene=rnaX;product=RNAX
+AY543070.1	Genbank	exon	40848	41566	.	-	.	ID=exon-rnaX-1;Parent=rna-rnaX;Note=stable RNA with unknown functions;gbkey=misc_RNA;gene=rnaX;product=RNAX
+AY543070.1	Genbank	promoter	41554	41628	.	-	.	ID=id-AY543070.1:41554..41628;Note=promoter P 16-17;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	41617	42051	.	-	.	ID=gene-T5.081;Name=T5.081;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.081
+AY543070.1	Genbank	CDS	41617	42051	.	-	0	ID=cds-AAS77127.1;Parent=gene-T5.081;Dbxref=NCBI_GP:AAS77127.1;Name=AAS77127.1;gbkey=CDS;locus_tag=T5.081;product=hypothetical protein;protein_id=AAS77127.1;transl_table=11
+AY543070.1	Genbank	gene	42051	42221	.	-	.	ID=gene-T5.082;Name=T5.082;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.082
+AY543070.1	Genbank	CDS	42051	42221	.	-	0	ID=cds-AAS77128.1;Parent=gene-T5.082;Dbxref=NCBI_GP:AAS77128.1;Name=AAS77128.1;gbkey=CDS;locus_tag=T5.082;product=hypothetical protein;protein_id=AAS77128.1;transl_table=11
+AY543070.1	Genbank	promoter	42227	42301	.	-	.	ID=id-AY543070.1:42227..42301;Note=promoter P-D/E 33;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	42290	42739	.	-	.	ID=gene-T5.083;Name=T5.083;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.083
+AY543070.1	Genbank	CDS	42290	42739	.	-	0	ID=cds-AAS77129.1;Parent=gene-T5.083;Dbxref=NCBI_GP:AAS77129.1;Name=AAS77129.1;gbkey=CDS;locus_tag=T5.083;product=conserved hypothetical protein;protein_id=AAS77129.1;transl_table=11
+AY543070.1	Genbank	gene	42745	43062	.	-	.	ID=gene-T5.084;Name=T5.084;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.084
+AY543070.1	Genbank	CDS	42745	43062	.	-	0	ID=cds-AAS77130.1;Parent=gene-T5.084;Dbxref=NCBI_GP:AAS77130.1;Name=AAS77130.1;Note=similar to KVP40.0304 TrEMBL AAQ64374;gbkey=CDS;locus_tag=T5.084;product=hypothetical protein;protein_id=AAS77130.1;transl_table=11
+AY543070.1	Genbank	promoter	43067	43141	.	-	.	ID=id-AY543070.1:43067..43141;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	43505	44143	.	-	.	ID=gene-T5.085;Name=T5.085;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.085
+AY543070.1	Genbank	CDS	43505	44143	.	-	0	ID=cds-AAS77131.1;Parent=gene-T5.085;Dbxref=NCBI_GP:AAS77131.1;Name=AAS77131.1;gbkey=CDS;locus_tag=T5.085;product=hypothetical protein;protein_id=AAS77131.1;transl_table=11
+AY543070.1	Genbank	gene	44196	44378	.	-	.	ID=gene-T5.086;Name=T5.086;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.086
+AY543070.1	Genbank	CDS	44196	44378	.	-	0	ID=cds-AAS77132.1;Parent=gene-T5.086;Dbxref=NCBI_GP:AAS77132.1;Name=AAS77132.1;gbkey=CDS;locus_tag=T5.086;product=hypothetical protein;protein_id=AAS77132.1;transl_table=11
+AY543070.1	Genbank	promoter	44393	44467	.	-	.	ID=id-AY543070.1:44393..44467;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	44449	45150	.	-	.	ID=gene-T5.087;Name=T5.087;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.087
+AY543070.1	Genbank	CDS	44449	45150	.	-	0	ID=cds-AAS77133.1;Parent=gene-T5.087;Dbxref=NCBI_GP:AAS77133.1;Name=AAS77133.1;gbkey=CDS;locus_tag=T5.087;product=putative metallopeptidase;protein_id=AAS77133.1;transl_table=11
+AY543070.1	Genbank	gene	45179	45415	.	-	.	ID=gene-T5.088;Name=T5.088;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.088
+AY543070.1	Genbank	CDS	45179	45415	.	-	0	ID=cds-AAS77134.1;Parent=gene-T5.088;Dbxref=NCBI_GP:AAS77134.1;Name=AAS77134.1;gbkey=CDS;locus_tag=T5.088;product=hypothetical protein;protein_id=AAS77134.1;transl_table=11
+AY543070.1	Genbank	gene	45458	45973	.	-	.	ID=gene-T5.089;Name=T5.089;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.089
+AY543070.1	Genbank	CDS	45458	45973	.	-	0	ID=cds-AAS77135.1;Parent=gene-T5.089;Dbxref=NCBI_GP:AAS77135.1;Name=AAS77135.1;gbkey=CDS;locus_tag=T5.089;product=hypothetical protein;protein_id=AAS77135.1;transl_table=11
+AY543070.1	Genbank	promoter	45985	46059	.	-	.	ID=id-AY543070.1:45985..46059;Note=promoter P-H 207;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	46057	46335	.	-	.	ID=gene-T5.090;Name=T5.090;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.090
+AY543070.1	Genbank	CDS	46057	46335	.	-	0	ID=cds-AAS77136.1;Parent=gene-T5.090;Dbxref=NCBI_GP:AAS77136.1;Name=AAS77136.1;gbkey=CDS;locus_tag=T5.090;product=hypothetical protein;protein_id=AAS77136.1;transl_table=11
+AY543070.1	Genbank	promoter	46337	46411	.	-	.	ID=id-AY543070.1:46337..46411;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	46412	46888	.	-	.	ID=gene-T5.091;Name=rnh;gbkey=Gene;gene=rnh;gene_biotype=protein_coding;locus_tag=T5.091
+AY543070.1	Genbank	CDS	46412	46888	.	-	0	ID=cds-AAS77137.1;Parent=gene-T5.091;Dbxref=NCBI_GP:AAS77137.1;Name=AAS77137.1;gbkey=CDS;gene=rnh;locus_tag=T5.091;product=putative RNaseH ribonuclease;protein_id=AAS77137.1;transl_table=11
+AY543070.1	Genbank	promoter	46937	47011	.	-	.	ID=id-AY543070.1:46937..47011;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	47022	47861	.	-	.	ID=gene-T5.092;Name=thy;gbkey=Gene;gene=thy;gene_biotype=protein_coding;locus_tag=T5.092
+AY543070.1	Genbank	CDS	47022	47861	.	-	0	ID=cds-AAS77138.1;Parent=gene-T5.092;Dbxref=NCBI_GP:AAS77138.1;Name=AAS77138.1;gbkey=CDS;gene=thy;locus_tag=T5.092;product=putative thymidylate synthase;protein_id=AAS77138.1;transl_table=11
+AY543070.1	Genbank	gene	47861	48394	.	-	.	ID=gene-T5.093;Name=frd;gbkey=Gene;gene=frd;gene_biotype=protein_coding;locus_tag=T5.093
+AY543070.1	Genbank	CDS	47861	48394	.	-	0	ID=cds-AAS77139.1;Parent=gene-T5.093;Dbxref=NCBI_GP:AAS77139.1;Name=AAS77139.1;gbkey=CDS;gene=frd;locus_tag=T5.093;product=putative dihydrofolate reductase;protein_id=AAS77139.1;transl_table=11
+AY543070.1	Genbank	gene	48391	49536	.	-	.	ID=gene-T5.094;Name=nrdB;gbkey=Gene;gene=nrdB;gene_biotype=protein_coding;gene_synonym=B3;locus_tag=T5.094
+AY543070.1	Genbank	CDS	48391	49536	.	-	0	ID=cds-AAS77140.1;Parent=gene-T5.094;Dbxref=NCBI_GP:AAS77140.1;Name=AAS77140.1;Note=ribonucleotide reductase catalyzes the reductive synthesis of deoxynucleotides from their corresponding ribonucleotides%3B identified by match to InterPro family IPR000358;gbkey=CDS;gene=nrdB;locus_tag=T5.094;product=putative aerobic ribonucleoside diphosphate reductase%2C small subunit;protein_id=AAS77140.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	49332	49332	.	-	.	ID=id-T5.094;Note=compared to bacteriophage T5B3amH59%3B results in amber-codon;gbkey=variation;gene=nrdB;locus_tag=T5.094;replace=t
+AY543070.1	Genbank	gene	49536	50060	.	-	.	ID=gene-T5.095;Name=hegH;gbkey=Gene;gene=hegH;gene_biotype=protein_coding;locus_tag=T5.095
+AY543070.1	Genbank	CDS	49536	50060	.	-	0	ID=cds-AAS77141.1;Parent=gene-T5.095;Dbxref=NCBI_GP:AAS77141.1;Name=AAS77141.1;Note=identified by sequence semilarity to H-N-H-nucleases;gbkey=CDS;gene=hegH;locus_tag=T5.095;product=putative H-N-H-endonuclease P-TflVIII;protein_id=AAS77141.1;transl_table=11
+AY543070.1	Genbank	promoter	50061	50135	.	-	.	ID=id-AY543070.1:50061..50135;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	50163	52598	.	-	.	ID=gene-T5.096;Name=nrdA;gbkey=Gene;gene=nrdA;gene_biotype=protein_coding;gene_synonym=B1-2;locus_tag=T5.096
+AY543070.1	Genbank	CDS	50163	52598	.	-	0	ID=cds-AAS77142.1;Parent=gene-T5.096;Dbxref=NCBI_GP:AAS77142.1;Name=AAS77142.1;Note=identified by match to InterPro family IPR000788;gbkey=CDS;gene=nrdA;locus_tag=T5.096;product=putative aerobic ribonucleoside diphosphate reductase%2C large subunit;protein_id=AAS77142.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	50257	50257	.	-	.	ID=id-T5.096;Note=compared to bacteriophage T5B2amH24a%3B results in amber-codon;gbkey=variation;gene=nrdA;locus_tag=T5.096;replace=a
+AY543070.1	Genbank	sequence_alteration	51626	51626	.	-	.	ID=id-T5.096-2;Note=compared to bacteriophage T5B1amH24b%3B results in amber-codon;gbkey=variation;gene=nrdA;locus_tag=T5.096;replace=t
+AY543070.1	Genbank	gene	52678	52836	.	-	.	ID=gene-T5.097;Name=T5.097;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.097
+AY543070.1	Genbank	CDS	52678	52836	.	-	0	ID=cds-AAS77143.1;Parent=gene-T5.097;Dbxref=NCBI_GP:AAS77143.1;Name=AAS77143.1;gbkey=CDS;locus_tag=T5.097;product=hypothetical protein;protein_id=AAS77143.1;transl_table=11
+AY543070.1	Genbank	gene	52838	53590	.	-	.	ID=gene-T5.098;Name=phoH;gbkey=Gene;gene=phoH;gene_biotype=protein_coding;locus_tag=T5.098
+AY543070.1	Genbank	CDS	52838	53590	.	-	0	ID=cds-AAS77144.1;Parent=gene-T5.098;Dbxref=NCBI_GP:AAS77144.1;Name=AAS77144.1;Note=PhoH is a cytoplasmic protein and predicted ATPase that is induced by phosphate starvation and belongings to the pho-regulon in Escherichia coli%3B identified by match to IntrPro family IPR003714;gbkey=CDS;gene=phoH;locus_tag=T5.098;product=putative PhoH-like protein;protein_id=AAS77144.1;transl_table=11
+AY543070.1	Genbank	promoter	53638	53712	.	-	.	ID=id-AY543070.1:53638..53712;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	promoter	53776	53850	.	-	.	ID=id-AY543070.1:53776..53850;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	53884	55729	.	+	.	ID=gene-T5.099;Name=nrdD;gbkey=Gene;gene=nrdD;gene_biotype=protein_coding;locus_tag=T5.099
+AY543070.1	Genbank	CDS	53961	55685	.	+	0	ID=cds-AAS77145.1;Parent=gene-T5.099;Dbxref=NCBI_GP:AAS77145.1;Name=AAS77145.1;Note=identified by sequence semilarity%3B matches to InterPro domain IPR001150;gbkey=CDS;gene=nrdD;locus_tag=T5.099;product=putative anaerobic ribonucleoside-triphosphate reductase;protein_id=AAS77145.1;transl_table=11
+AY543070.1	Genbank	promoter	53884	53958	.	+	.	ID=id-T5.099;Parent=gene-T5.099;gbkey=regulatory;gene=nrdD;locus_tag=T5.099;regulatory_class=promoter
+AY543070.1	Genbank	terminator	55694	55729	.	+	.	ID=id-T5.099-2;Parent=gene-T5.099;Note=putative rho-independent transcription terminator;gbkey=regulatory;gene=nrdD;locus_tag=T5.099;regulatory_class=terminator
+AY543070.1	Genbank	promoter	55708	55782	.	+	.	ID=id-AY543070.1:55708..55782;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	55786	56166	.	+	.	ID=gene-T5.100;Name=T5.100;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.100
+AY543070.1	Genbank	CDS	55786	56166	.	+	0	ID=cds-AAS77146.1;Parent=gene-T5.100;Dbxref=NCBI_GP:AAS77146.1;Name=AAS77146.1;gbkey=CDS;locus_tag=T5.100;product=hypothetical protein;protein_id=AAS77146.1;transl_table=11
+AY543070.1	Genbank	gene	56159	56392	.	+	.	ID=gene-T5.101;Name=T5.101;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.101
+AY543070.1	Genbank	CDS	56159	56392	.	+	0	ID=cds-AAS77147.1;Parent=gene-T5.101;Dbxref=NCBI_GP:AAS77147.1;Name=AAS77147.1;gbkey=CDS;locus_tag=T5.101;product=hypothetical protein;protein_id=AAS77147.1;transl_table=11
+AY543070.1	Genbank	gene	56447	57265	.	+	.	ID=gene-T5.102;Name=T5.102;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.102
+AY543070.1	Genbank	CDS	56447	57265	.	+	0	ID=cds-AAS77148.1;Parent=gene-T5.102;Dbxref=NCBI_GP:AAS77148.1;Name=AAS77148.1;Note=NAD-dependent deacetylase%2C ADP-ribosylase%2C transcription regulator%3B identified by match to InterPro family IPR003000;gbkey=CDS;locus_tag=T5.102;product=putative Sir2-like protein;protein_id=AAS77148.1;transl_table=11
+AY543070.1	Genbank	gene	57243	57428	.	+	.	ID=gene-T5.103;Name=T5.103;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.103
+AY543070.1	Genbank	CDS	57243	57428	.	+	0	ID=cds-AAS77149.1;Parent=gene-T5.103;Dbxref=NCBI_GP:AAS77149.1;Name=AAS77149.1;gbkey=CDS;locus_tag=T5.103;product=hypothetical protein;protein_id=AAS77149.1;transl_table=11
+AY543070.1	Genbank	gene	57419	57601	.	+	.	ID=gene-T5.104;Name=T5.104;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.104
+AY543070.1	Genbank	CDS	57419	57601	.	+	0	ID=cds-AAS77150.1;Parent=gene-T5.104;Dbxref=NCBI_GP:AAS77150.1;Name=AAS77150.1;gbkey=CDS;locus_tag=T5.104;product=hypothetical protein;protein_id=AAS77150.1;transl_table=11
+AY543070.1	Genbank	gene	57588	58094	.	+	.	ID=gene-T5.105;Name=T5.105;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.105
+AY543070.1	Genbank	CDS	57588	58094	.	+	0	ID=cds-AAS77151.1;Parent=gene-T5.105;Dbxref=NCBI_GP:AAS77151.1;Name=AAS77151.1;Note=similar to AEH1ORF303C TrEMBL AAQ17972 and 44RRORF17C TrEMBL AAQ81336;gbkey=CDS;locus_tag=T5.105;product=conserved hypothetical protein;protein_id=AAS77151.1;transl_table=11
+AY543070.1	Genbank	gene	58097	58525	.	+	.	ID=gene-T5.106;Name=T5.106;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.106
+AY543070.1	Genbank	CDS	58097	58525	.	+	0	ID=cds-AAS77152.1;Parent=gene-T5.106;Dbxref=NCBI_GP:AAS77152.1;Name=AAS77152.1;Note=similar to ORF91 TrEMBL Q858T3;gbkey=CDS;locus_tag=T5.106;product=conserved hypothetical protein;protein_id=AAS77152.1;transl_table=11
+AY543070.1	Genbank	gene	58535	58927	.	+	.	ID=gene-T5.107;Name=T5.107;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.107
+AY543070.1	Genbank	CDS	58535	58927	.	+	0	ID=cds-AAS77153.1;Parent=gene-T5.107;Dbxref=NCBI_GP:AAS77153.1;Name=AAS77153.1;Note=similar to to AEH1ORF299C TrEMBL AAQ17968;gbkey=CDS;locus_tag=T5.107;product=conserved hypothetical protein;protein_id=AAS77153.1;transl_table=11
+AY543070.1	Genbank	terminator	58952	58976	.	+	.	ID=id-AY543070.1:58952..58976;Note=putative rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	promoter	58999	59073	.	+	.	ID=id-AY543070.1:58999..59073;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	59545	62331	.	+	.	ID=gene-T5.108;Name=T5.108;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.108
+AY543070.1	Genbank	CDS	59545	62331	.	+	0	ID=cds-AAS77154.1;Parent=gene-T5.108;Dbxref=NCBI_GP:AAS77154.1;Name=AAS77154.1;Note=identified by match to InterPro domains IPR001005 and IPR001410;gbkey=CDS;locus_tag=T5.108;product=putative replication origin binding protein;protein_id=AAS77154.1;transl_table=11
+AY543070.1	Genbank	gene	62318	62836	.	+	.	ID=gene-T5.109;Name=hegI;gbkey=Gene;gene=hegI;gene_biotype=protein_coding;locus_tag=T5.109
+AY543070.1	Genbank	CDS	62318	62836	.	+	0	ID=cds-AAS77155.1;Parent=gene-T5.109;Dbxref=NCBI_GP:AAS77155.1;Name=AAS77155.1;gbkey=CDS;gene=hegI;locus_tag=T5.109;product=putative H-N-H-endonuclease P-TflIX;protein_id=AAS77155.1;transl_table=11
+AY543070.1	Genbank	gene	62820	63053	.	+	.	ID=gene-T5.110;Name=T5.110;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.110
+AY543070.1	Genbank	CDS	62820	63053	.	+	0	ID=cds-AAS77156.1;Parent=gene-T5.110;Dbxref=NCBI_GP:AAS77156.1;Name=AAS77156.1;gbkey=CDS;locus_tag=T5.110;product=hypothetical protein;protein_id=AAS77156.1;transl_table=11
+AY543070.1	Genbank	promoter	63043	63117	.	+	.	ID=id-AY543070.1:63043..63117;Note=promoter P-N 25;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	63122	63826	.	+	.	ID=gene-T5.111;Name=D2;gbkey=Gene;gene=D2;gene_biotype=protein_coding;locus_tag=T5.111
+AY543070.1	Genbank	CDS	63122	63826	.	+	0	ID=cds-AAS77157.1;Parent=gene-T5.111;Dbxref=NCBI_GP:AAS77157.1;Name=AAS77157.1;gbkey=CDS;gene=D2;locus_tag=T5.111;product=D2 protein;protein_id=AAS77157.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	63569	63569	.	+	.	ID=id-T5.111;Note=compared to bacteriophage T5D2amH46b%3B results in amber-codon;gbkey=variation;gene=D2;locus_tag=T5.111;replace=t
+AY543070.1	Genbank	gene	63819	64070	.	+	.	ID=gene-T5.112;Name=T5.112;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.112
+AY543070.1	Genbank	CDS	63819	64070	.	+	0	ID=cds-AAS77158.1;Parent=gene-T5.112;Dbxref=NCBI_GP:AAS77158.1;Name=AAS77158.1;gbkey=CDS;locus_tag=T5.112;product=hypothetical protein;protein_id=AAS77158.1;transl_table=11
+AY543070.1	Genbank	promoter	64068	64142	.	+	.	ID=id-AY543070.1:64068..64142;Note=promoter P-N 26;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	64174	64584	.	+	.	ID=gene-T5.113;Name=D3;gbkey=Gene;gene=D3;gene_biotype=protein_coding;locus_tag=T5.113
+AY543070.1	Genbank	CDS	64174	64584	.	+	0	ID=cds-AAS77159.1;Parent=gene-T5.113;Dbxref=NCBI_GP:AAS77159.1;Name=AAS77159.1;gbkey=CDS;gene=D3;locus_tag=T5.113;product=D3 protein;protein_id=AAS77159.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	64303	64303	.	+	.	ID=id-T5.113;Note=compared to bacteriophage T5D3amH37c%3B results in amber-codon;gbkey=variation;gene=D3;locus_tag=T5.113;replace=t
+AY543070.1	Genbank	gene	64621	64917	.	+	.	ID=gene-T5.114;Name=T5.114;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.114
+AY543070.1	Genbank	CDS	64621	64917	.	+	0	ID=cds-AAS77160.1;Parent=gene-T5.114;Dbxref=NCBI_GP:AAS77160.1;Name=AAS77160.1;gbkey=CDS;locus_tag=T5.114;product=hypothetical protein;protein_id=AAS77160.1;transl_table=11
+AY543070.1	Genbank	terminator	64929	64948	.	+	.	ID=id-AY543070.1:64929..64948;Note=putative rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	gene	64968	65276	.	+	.	ID=gene-T5.115;Name=T5.115;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.115
+AY543070.1	Genbank	CDS	64968	65276	.	+	0	ID=cds-AAS77161.1;Parent=gene-T5.115;Dbxref=NCBI_GP:AAS77161.1;Name=AAS77161.1;gbkey=CDS;locus_tag=T5.115;product=hypothetical protein;protein_id=AAS77161.1;transl_table=11
+AY543070.1	Genbank	promoter	65284	65358	.	+	.	ID=id-AY543070.1:65284..65358;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	65364	66335	.	+	.	ID=gene-T5.116;Name=ligA;gbkey=Gene;gene=ligA;gene_biotype=protein_coding;gene_synonym=D4;locus_tag=T5.116
+AY543070.1	Genbank	CDS	65364	66335	.	+	0	ID=cds-AAS77162.1;Parent=gene-T5.116;Dbxref=NCBI_GP:AAS77162.1;Name=AAS77162.1;Note=matches to InterPro family IPR001679 and InterPro domains IPR000572%2C IPR004150 and IPR008994;gbkey=CDS;gene=ligA;locus_tag=T5.116;product=NAD-dependent DNA ligase%2C subunit A;protein_id=AAS77162.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	65886	65886	.	+	.	ID=id-T5.116;Note=compared to bacteriophage T5D4am139b%3B results in amber-codon;gbkey=variation;gene=ligA;locus_tag=T5.116;replace=t
+AY543070.1	Genbank	promoter	66366	66440	.	+	.	ID=id-AY543070.1:66366..66440;Note=promoter P-K 28b;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	promoter	66459	66533	.	+	.	ID=id-AY543070.1:66459..66533;Note=promoter P-K 28a;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	66538	67317	.	+	.	ID=gene-T5.117;Name=ligB;gbkey=Gene;gene=ligB;gene_biotype=protein_coding;locus_tag=T5.117
+AY543070.1	Genbank	CDS	66538	67317	.	+	0	ID=cds-AAS77163.1;Parent=gene-T5.117;Dbxref=NCBI_GP:AAS77163.1;Name=AAS77163.1;Note=matches to InterPro domain IPR001357;gbkey=CDS;gene=ligB;locus_tag=T5.117;product=NAD-dependent DNA ligase%2C subunit B;protein_id=AAS77163.1;transl_table=11
+AY543070.1	Genbank	gene	67310	68077	.	+	.	ID=gene-T5.118;Name=D5;gbkey=Gene;gene=D5;gene_biotype=protein_coding;locus_tag=T5.118
+AY543070.1	Genbank	CDS	67310	68077	.	+	0	ID=cds-AAS77164.1;Parent=gene-T5.118;Dbxref=NCBI_GP:AAS77164.1;Name=AAS77164.1;Note=DNA-binding protein%3B required for DNA replication and late transcription%3B also is involved in shutoff of expression of some early genes;gbkey=CDS;gene=D5;locus_tag=T5.118;product=D5 protein;protein_id=AAS77164.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	67541	67541	.	+	.	ID=id-T5.118;Note=compared to bacteriophage T5D5amH128a%3B results in amber-codon;gbkey=variation;gene=D5;locus_tag=T5.118;replace=t
+AY543070.1	Genbank	gene	68109	69617	.	+	.	ID=gene-T5.119;Name=D6;gbkey=Gene;gene=D6;gene_biotype=protein_coding;locus_tag=T5.119
+AY543070.1	Genbank	CDS	68109	69617	.	+	0	ID=cds-AAS77165.1;Parent=gene-T5.119;Dbxref=NCBI_GP:AAS77165.1;Name=AAS77165.1;Note=identified by sequence semilarity to DnaB proteins;gbkey=CDS;gene=D6;locus_tag=T5.119;product=D6 protein;protein_id=AAS77165.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	68463	68463	.	+	.	ID=id-T5.119;Note=compared to bacteriophage T5D6amH57%3B results in amber-codon;gbkey=variation;gene=D6;locus_tag=T5.119;replace=t
+AY543070.1	Genbank	gene	69614	70147	.	+	.	ID=gene-T5.120;Name=hegJ;gbkey=Gene;gene=hegJ;gene_biotype=protein_coding;locus_tag=T5.120
+AY543070.1	Genbank	CDS	69614	70147	.	+	0	ID=cds-AAS77166.1;Parent=gene-T5.120;Dbxref=NCBI_GP:AAS77166.1;Name=AAS77166.1;Note=identified by sequence semilarity to H-N-H-nucleases;gbkey=CDS;gene=hegJ;locus_tag=T5.120;product=putative H-N-H-endonuclease P-TflX;protein_id=AAS77166.1;transl_table=11
+AY543070.1	Genbank	gene	70144	71034	.	+	.	ID=gene-T5.121;Name=pri;gbkey=Gene;gene=pri;gene_biotype=protein_coding;locus_tag=T5.121
+AY543070.1	Genbank	CDS	70144	71034	.	+	0	ID=cds-AAS77167.1;Parent=gene-T5.121;Dbxref=NCBI_GP:AAS77167.1;Name=AAS77167.1;Note=DNA replication enzyme for synthesis of RNA primers required for DNA replication on the lagging strand of the replication fork. It can also prime the leading strand. Identified by match to InterPro domain IPR006647. Also matches to InterPro domain IPR002694;gbkey=CDS;gene=pri;locus_tag=T5.121;product=putative DNA replication primase;protein_id=AAS77167.1;transl_table=11
+AY543070.1	Genbank	promoter	70987	71061	.	+	.	ID=id-AY543070.1:70987..71061;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	71097	73664	.	+	.	ID=gene-T5.122;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;gene_synonym=D7-9;locus_tag=T5.122
+AY543070.1	Genbank	CDS	71097	73664	.	+	0	ID=cds-AAS77168.1;Parent=gene-T5.122;Dbxref=NCBI_GP:AAS77168.1;Name=AAS77168.1;gbkey=CDS;gene=pol;locus_tag=T5.122;product=DNA polymerase;protein_id=AAS77168.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	71141	71141	.	+	.	ID=id-T5.122;Note=compared to bacteriophage T5D7amH40c%3B results in amber-codon;gbkey=variation;gene=pol;locus_tag=T5.122;replace=g
+AY543070.1	Genbank	sequence_alteration	71712	71712	.	+	.	ID=id-T5.122-2;Note=compared to bacteriophage T5D8amM141b%3B results in amber-codon;gbkey=variation;gene=pol;locus_tag=T5.122;replace=t
+AY543070.1	Genbank	sequence_alteration	73365	73365	.	+	.	ID=id-T5.122-3;Note=compared to bacteriophage T5D9amH17c%3B results in amber-codon;gbkey=variation;gene=pol;locus_tag=T5.122;replace=t
+AY543070.1	Genbank	gene	73657	74154	.	+	.	ID=gene-T5.123;Name=T5.123;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf165aa;locus_tag=T5.123
+AY543070.1	Genbank	CDS	73657	74154	.	+	0	ID=cds-AAS77169.1;Parent=gene-T5.123;Dbxref=NCBI_GP:AAS77169.1;Name=AAS77169.1;gbkey=CDS;locus_tag=T5.123;product=hypothetical protein;protein_id=AAS77169.1;transl_table=11
+AY543070.1	Genbank	gene	74151	75503	.	+	.	ID=gene-T5.124;Name=D10;gbkey=Gene;gene=D10;gene_biotype=protein_coding;locus_tag=T5.124
+AY543070.1	Genbank	CDS	74151	75503	.	+	0	ID=cds-AAS77170.1;Parent=gene-T5.124;Dbxref=NCBI_GP:AAS77170.1;Name=AAS77170.1;Note=identified by match to InterPro domains IPR001410 and IPR001650;gbkey=CDS;gene=D10;locus_tag=T5.124;product=putative ATP-dependent helicase;protein_id=AAS77170.1;transl_table=11
+AY543070.1	Genbank	promoter	75467	75541	.	+	.	ID=id-AY543070.1:75467..75541;Note=promoter P31A;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	promoter	75476	75528	.	+	.	ID=id-AY543070.1:75476..75528;Note=P-31A;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	promoter	75568	75642	.	+	.	ID=id-AY543070.1:75568..75642;Note=promoter P31B;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	promoter	75579	75624	.	+	.	ID=id-AY543070.1:75579..75624;Note=P-31B;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	75724	76008	.	+	.	ID=gene-T5.125;Name=T5.125;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf94aa;locus_tag=T5.125
+AY543070.1	Genbank	CDS	75724	76008	.	+	0	ID=cds-AAS77171.1;Parent=gene-T5.125;Dbxref=NCBI_GP:AAS77171.1;Name=AAS77171.1;gbkey=CDS;locus_tag=T5.125;product=hypothetical protein;protein_id=AAS77171.1;transl_table=11
+AY543070.1	Genbank	gene	76001	76774	.	+	.	ID=gene-T5.126;Name=D11;gbkey=Gene;gene=D11;gene_biotype=protein_coding;locus_tag=T5.126
+AY543070.1	Genbank	CDS	76001	76774	.	+	0	ID=cds-AAS77172.1;Parent=gene-T5.126;Dbxref=NCBI_GP:AAS77172.1;Name=AAS77172.1;gbkey=CDS;gene=D11;locus_tag=T5.126;product=D11 protein;protein_id=AAS77172.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	76646	76646	.	+	.	ID=id-T5.126;Note=compared to bacteriophage T5D11amH135a%3B results in amber-codon;gbkey=variation;gene=D11;locus_tag=T5.126;replace=t
+AY543070.1	Genbank	terminator	76782	76797	.	+	.	ID=id-AY543070.1:76782..76797;Note=putative;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	terminator	76783	76805	.	+	.	ID=id-AY543070.1:76783..76805;Note=putative rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	gene	76811	77788	.	+	.	ID=gene-T5.127;Name=D12;gbkey=Gene;gene=D12;gene_biotype=protein_coding;locus_tag=T5.127
+AY543070.1	Genbank	CDS	76811	77788	.	+	0	ID=cds-AAS77173.1;Parent=gene-T5.127;Dbxref=NCBI_GP:AAS77173.1;Name=AAS77173.1;Note=similar to subunit D of SbcCD recombination endonuclease%3B matches to InterPro domain IPR004843;gbkey=CDS;gene=D12;locus_tag=T5.127;product=putative recombination endonuclease%2C subunit D12;protein_id=AAS77173.1;transl_table=11
+AY543070.1	Genbank	gene	77769	79607	.	+	.	ID=gene-T5.128;Name=D13;gbkey=Gene;gene=D13;gene_biotype=protein_coding;locus_tag=T5.128
+AY543070.1	Genbank	CDS	77769	79607	.	+	0	ID=cds-AAS77174.1;Parent=gene-T5.128;Dbxref=NCBI_GP:AAS77174.1;Name=AAS77174.1;Note=similar to subunit C of recombination endonuclease SbcCD;gbkey=CDS;gene=D13;locus_tag=T5.128;product=putative recombination endonuclease%2C subunit D13;protein_id=AAS77174.1;transl_table=11
+AY543070.1	Genbank	sequence_feature	78573	78574	.	-	.	ID=id-AY543070.1:78573..78574;Note=major DNA single-chain interruption%3B identified by match to the consensus sequence 5'-NPu pGCGCN-3' surrounding an interruption;gbkey=misc_feature
+AY543070.1	Genbank	gene	79611	80093	.	+	.	ID=gene-T5.129;Name=D14;gbkey=Gene;gene=D14;gene_biotype=protein_coding;locus_tag=T5.129
+AY543070.1	Genbank	CDS	79611	80093	.	+	0	ID=cds-AAS77175.1;Parent=gene-T5.129;Dbxref=NCBI_GP:AAS77175.1;Name=AAS77175.1;gbkey=CDS;gene=D14;locus_tag=T5.129;product=D14 protein;protein_id=AAS77175.1;transl_table=11
+AY543070.1	Genbank	gene	80077	80968	.	+	.	ID=gene-T5.130;Name=D15;gbkey=Gene;gene=D15;gene_biotype=protein_coding;locus_tag=T5.130
+AY543070.1	Genbank	CDS	80093	80968	.	+	0	ID=cds-AAS77176.1;Parent=gene-T5.130;Dbxref=NCBI_GP:AAS77176.1;Name=AAS77176.1;Note=flap endonucleases%2C or 5'-nucleases%2C are involved in DNA replication and repair%3B they possess both 5'-exonucleolytic activity and the ability to cleave bifurcated%2C or branched DNA%2C in an endonucleolytic structure-specific manner%3B 5'-nuclease D15 is also required for late transcription%3B matches to InterPro family IPR002421 and InterPro domains IPR000513 and IPR008918;gbkey=CDS;gene=D15;locus_tag=T5.130;product=flap endonuclease;protein_id=AAS77176.1;transl_table=11
+AY543070.1	Genbank	gene	80965	81411	.	+	.	ID=gene-T5.131;Name=dut;gbkey=Gene;gene=dut;gene_biotype=protein_coding;locus_tag=T5.131
+AY543070.1	Genbank	CDS	80965	81411	.	+	0	ID=cds-AAS77177.1;Parent=gene-T5.131;Dbxref=NCBI_GP:AAS77177.1;Name=AAS77177.1;Note=dUTPase hydrolyzes dUTP to dUMP and pyrophosphate%2C simultaneously reducing dUTP levels and providing the dUMP for dTTP biosynthesis%3B identified by match to InterPro families IPR008180 and IPR008181;gbkey=CDS;gene=dut;locus_tag=T5.131;product=putative deoxyUTP pyrophosphatase;protein_id=AAS77177.1;transl_table=11
+AY543070.1	Genbank	gene	81374	81637	.	+	.	ID=gene-T5.132;Name=T5.132;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.132
+AY543070.1	Genbank	CDS	81374	81637	.	+	0	ID=cds-AAS77178.1;Parent=gene-T5.132;Dbxref=NCBI_GP:AAS77178.1;Name=AAS77178.1;gbkey=CDS;locus_tag=T5.132;product=hypothetical protein;protein_id=AAS77178.1;transl_table=11
+AY543070.1	Genbank	terminator	81641	81680	.	+	.	ID=id-AY543070.1:81641..81680;Note=efficient bidirectional rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	gene	81735	86822	.	+	.	ID=gene-T5.134;Name=T5.134;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf123aa;locus_tag=T5.134
+AY543070.1	Genbank	CDS	81955	82326	.	+	0	ID=cds-AAS77203.1;Parent=gene-T5.134;Dbxref=NCBI_GP:AAS77203.1;Name=AAS77203.1;gbkey=CDS;locus_tag=T5.134;product=hypothetical protein;protein_id=AAS77203.1;transl_table=11
+AY543070.1	Genbank	promoter	81735	81809	.	+	.	ID=id-T5.134;Parent=gene-T5.134;gbkey=regulatory;locus_tag=T5.134;regulatory_class=promoter
+AY543070.1	Genbank	terminator	84346	86822	.	+	.	ID=id-T5.134-2;Parent=gene-T5.134;Note=rho-dependent transcription terminator;gbkey=regulatory;locus_tag=T5.134;regulatory_class=terminator
+AY543070.1	Genbank	gene	81865	86055	.	-	.	ID=gene-T5.133;Name=ltf;gbkey=Gene;gene=ltf;gene_biotype=protein_coding;locus_tag=T5.133
+AY543070.1	Genbank	CDS	81865	86055	.	-	0	ID=cds-AAQ92751.2;Parent=gene-T5.133;Dbxref=NCBI_GP:AAQ92751.2;Name=AAQ92751.2;gbkey=CDS;gene=ltf;locus_tag=T5.133;product=L-shaped tail fiber protein;protein_id=AAQ92751.2;transl_table=11
+AY543070.1	Genbank	gene	86055	86318	.	-	.	ID=gene-T5.135;Name=T5.135;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.135
+AY543070.1	Genbank	CDS	86055	86318	.	-	0	ID=cds-AAS77179.1;Parent=gene-T5.135;Dbxref=NCBI_GP:AAS77179.1;Name=AAS77179.1;gbkey=CDS;locus_tag=T5.135;product=hypothetical protein;protein_id=AAS77179.1;transl_table=11
+AY543070.1	Genbank	gene	86294	86479	.	-	.	ID=gene-T5.136;Name=T5.136;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.136
+AY543070.1	Genbank	CDS	86294	86479	.	-	0	ID=cds-AAQ92752.1;Parent=gene-T5.136;Dbxref=NCBI_GP:AAQ92752.1;Name=AAQ92752.1;gbkey=CDS;locus_tag=T5.136;product=hypothetical protein;protein_id=AAQ92752.1;transl_table=11
+AY543070.1	Genbank	gene	86484	88550	.	-	.	ID=gene-T5.137;Name=D17;gbkey=Gene;gene=D17;gene_biotype=protein_coding;locus_tag=T5.137
+AY543070.1	Genbank	CDS	86484	88550	.	-	0	ID=cds-AAQ92753.1;Parent=gene-T5.137;Dbxref=NCBI_GP:AAQ92753.1;Name=AAQ92753.1;Note=becomes covalently crosslinked upon irreversible binding to the phage T5 receptor%3B contains single transmembrane domain;gbkey=CDS;gene=D17;locus_tag=T5.137;product=tail protein Pb4;protein_id=AAQ92753.1;transl_table=11
+AY543070.1	Genbank	gene	88551	91400	.	-	.	ID=gene-T5.138;Name=D16;gbkey=Gene;gene=D16;gene_biotype=protein_coding;locus_tag=T5.138
+AY543070.1	Genbank	CDS	88551	91400	.	-	0	ID=cds-AAQ92754.1;Parent=gene-T5.138;Dbxref=NCBI_GP:AAQ92754.1;Name=AAQ92754.1;Note=contains single transmembrane domain;gbkey=CDS;gene=D16;locus_tag=T5.138;product=tail protein Pb3;protein_id=AAQ92754.1;transl_table=11
+AY543070.1	Genbank	gene	91397	92011	.	-	.	ID=gene-T5.139;Name=T5.139;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf204aa;locus_tag=T5.139
+AY543070.1	Genbank	CDS	91397	92011	.	-	0	ID=cds-AAQ92755.1;Parent=gene-T5.139;Dbxref=NCBI_GP:AAQ92755.1;Name=AAQ92755.1;gbkey=CDS;locus_tag=T5.139;product=hypothetical protein;protein_id=AAQ92755.1;transl_table=11
+AY543070.1	Genbank	promoter	92013	92087	.	-	.	ID=id-AY543070.1:92013..92087;Note=promoter P-G 25;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	terminator	92087	92113	.	-	.	ID=id-AY543070.1:92087..92113;Note=putative rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	gene	92121	95780	.	-	.	ID=gene-T5.140;Name=D18-19;gbkey=Gene;gene=D18-19;gene_biotype=protein_coding;locus_tag=T5.140
+AY543070.1	Genbank	CDS	92121	95780	.	-	0	ID=cds-AAQ92756.2;Parent=gene-T5.140;Dbxref=NCBI_GP:AAQ92756.2;Name=AAQ92756.2;Note=forms straight tail fiber%3B involved in DNA injection%3B matches to InterPro family IPR000834;gbkey=CDS;gene=D18-19;locus_tag=T5.140;product=pore-forming tail tip protein;protein_id=AAQ92756.2;transl_table=11
+AY543070.1	Genbank	sequence_alteration	92822	92822	.	-	.	ID=id-T5.140;Note=compared to bacteriophage T5D18amH5%3B results in amber-codon;gbkey=variation;gene=D18-19;locus_tag=T5.140;replace=t
+AY543070.1	Genbank	sequence_alteration	95570	95570	.	+	.	ID=id-AY543070.1:95570..95570;Note=compared to bacteriophage T5D19am106d%3B results in amber-codon;gbkey=variation;gene=D18-19;locus_tag=T5.140;replace=t
+AY543070.1	Genbank	gene	95777	96529	.	-	.	ID=gene-T5.141;Name=T5.141;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.141
+AY543070.1	Genbank	CDS	95777	96529	.	-	0	ID=cds-AAS77180.1;Parent=gene-T5.141;Dbxref=NCBI_GP:AAS77180.1;Name=AAS77180.1;Note=similar to RB49ORF239C TrEMBL Q7Y3I3;gbkey=CDS;locus_tag=T5.141;product=hypothetical protein;protein_id=AAS77180.1;transl_table=11
+AY543070.1	Genbank	terminator	96553	96587	.	-	.	ID=id-AY543070.1:96553..96587;Note=putative rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	gene	96624	96992	.	-	.	ID=gene-T5.142;Name=T5.142;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.142
+AY543070.1	Genbank	CDS	96624	96992	.	-	0	ID=cds-AAS77181.1;Parent=gene-T5.142;Dbxref=NCBI_GP:AAS77181.1;Name=AAS77181.1;gbkey=CDS;locus_tag=T5.142;product=hypothetical protein;protein_id=AAS77181.1;transl_table=11
+AY543070.1	Genbank	gene	97054	97458	.	-	.	ID=gene-T5.143;Name=T5.143;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.143
+AY543070.1	Genbank	CDS	97054	97458	.	-	0	ID=cds-AAS77182.1;Parent=gene-T5.143;Dbxref=NCBI_GP:AAS77182.1;Name=AAS77182.1;gbkey=CDS;locus_tag=T5.143;product=hypothetical protein;protein_id=AAS77182.1;transl_table=11
+AY543070.1	Genbank	gene	97458	98354	.	-	.	ID=gene-T5.144;Name=T5.144;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.144
+AY543070.1	Genbank	CDS	97458	98354	.	-	0	ID=cds-AAS77183.1;Parent=gene-T5.144;Dbxref=NCBI_GP:AAS77183.1;Name=AAS77183.1;Note=similar to bacteriophage BF23 minor tail protein gp24 TrEMBL Q37900;gbkey=CDS;locus_tag=T5.144;product=putative tail protein;protein_id=AAS77183.1;transl_table=11
+AY543070.1	Genbank	gene	98359	99753	.	-	.	ID=gene-T5.145;Name=N4;gbkey=Gene;gene=N4;gene_biotype=protein_coding;locus_tag=T5.145
+AY543070.1	Genbank	CDS	98359	99753	.	-	0	ID=cds-AAS77184.1;Parent=gene-T5.145;Dbxref=NCBI_GP:AAS77184.1;Name=AAS77184.1;Note=similar to bacteriophage BF23 major tail protein gp25 SwissProt Accession Number Q37899%3B matches to InterPro domains IPR003343 and IPR008964;gbkey=CDS;gene=N4;locus_tag=T5.145;product=major tail protein;protein_id=AAS77184.1;transl_table=11
+AY543070.1	Genbank	gene	99780	100265	.	-	.	ID=gene-T5.146;Name=T5.146;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.146
+AY543070.1	Genbank	CDS	99780	100265	.	-	0	ID=cds-AAS77185.1;Parent=gene-T5.146;Dbxref=NCBI_GP:AAS77185.1;Name=AAS77185.1;gbkey=CDS;locus_tag=T5.146;product=hypothetical protein;protein_id=AAS77185.1;transl_table=11
+AY543070.1	Genbank	promoter	99910	99984	.	-	.	ID=id-T5.146;Parent=gene-T5.146;Note=promoter P-J 5;gbkey=regulatory;locus_tag=T5.146;regulatory_class=promoter
+AY543070.1	Genbank	gene	100269	101036	.	-	.	ID=gene-T5.147;Name=T5.147;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.147
+AY543070.1	Genbank	CDS	100269	101036	.	-	0	ID=cds-AAS77186.1;Parent=gene-T5.147;Dbxref=NCBI_GP:AAS77186.1;Name=AAS77186.1;gbkey=CDS;locus_tag=T5.147;product=hypothetical protein;protein_id=AAS77186.1;transl_table=11
+AY543070.1	Genbank	gene	101036	101548	.	-	.	ID=gene-T5.148;Name=T5.148;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.148
+AY543070.1	Genbank	CDS	101036	101548	.	-	0	ID=cds-AAS77187.1;Parent=gene-T5.148;Dbxref=NCBI_GP:AAS77187.1;Name=AAS77187.1;gbkey=CDS;locus_tag=T5.148;product=hypothetical protein;protein_id=AAS77187.1;transl_table=11
+AY543070.1	Genbank	terminator	101563	101586	.	-	.	ID=id-AY543070.1:101563..101586;Note=putative rho-independent transcription terminator;gbkey=regulatory;regulatory_class=terminator
+AY543070.1	Genbank	gene	101608	102984	.	-	.	ID=gene-T5.149;Name=D20-21;gbkey=Gene;gene=D20-21;gene_biotype=protein_coding;locus_tag=T5.149
+AY543070.1	Genbank	CDS	101608	102984	.	-	0	ID=cds-AAS77188.1;Parent=gene-T5.149;Dbxref=NCBI_GP:AAS77188.1;Name=AAS77188.1;Note=matches to InterPro family IPR006444;gbkey=CDS;gene=D20-21;locus_tag=T5.149;product=major head protein precursor;protein_id=AAS77188.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	101898	101898	.	-	.	ID=id-T5.149;Note=compared to bacteriophage T5amH306%3B results in amber-codon;gbkey=variation;gene=D20-21;locus_tag=T5.149;replace=t
+AY543070.1	Genbank	sequence_alteration	102426	102426	.	-	.	ID=id-T5.149-2;Note=compared to bacteriophage T5D21amH47%3B results in amber-codon;gbkey=variation;gene=D20-21;locus_tag=T5.149;replace=t
+AY543070.1	Genbank	gene	103002	103634	.	-	.	ID=gene-T5.150;Name=T5.150;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.150
+AY543070.1	Genbank	CDS	103002	103634	.	-	0	ID=cds-AAS77189.1;Parent=gene-T5.150;Dbxref=NCBI_GP:AAS77189.1;Name=AAS77189.1;Note=identified by match to Interpro family IPR006433;gbkey=CDS;locus_tag=T5.150;product=putative prohead protease;protein_id=AAS77189.1;transl_table=11
+AY543070.1	Genbank	gene	103638	104132	.	-	.	ID=gene-T5.151;Name=T5.151;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.151
+AY543070.1	Genbank	CDS	103638	104132	.	-	0	ID=cds-AAS77190.1;Parent=gene-T5.151;Dbxref=NCBI_GP:AAS77190.1;Name=AAS77190.1;Note=identified by sequence semilarity to numerous bacteriophage tail proteins%3B matches to InterPro domains IPR000601%2C IPR003599 and IPR007110;gbkey=CDS;locus_tag=T5.151;product=putative tail protein;protein_id=AAS77190.1;transl_table=11
+AY543070.1	Genbank	gene	104135	105346	.	-	.	ID=gene-T5.152;Name=T5.152;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.152
+AY543070.1	Genbank	CDS	104135	105346	.	-	0	ID=cds-AAS77191.1;Parent=gene-T5.152;Dbxref=NCBI_GP:AAS77191.1;Name=AAS77191.1;Note=matches to InterPro family IPR006427;gbkey=CDS;locus_tag=T5.152;product=portal protein;protein_id=AAS77191.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	105008	105008	.	-	.	ID=id-T5.152;Note=in bacteriophage T5.152am65 results in amber-codon;gbkey=variation;locus_tag=T5.152;replace=g
+AY543070.1	Genbank	gene	105346	105783	.	-	.	ID=gene-T5.153;Name=T5.153;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.153
+AY543070.1	Genbank	CDS	105346	105783	.	-	0	ID=cds-AAS77192.1;Parent=gene-T5.153;Dbxref=NCBI_GP:AAS77192.1;Name=AAS77192.1;gbkey=CDS;locus_tag=T5.153;product=hypothetical protein;protein_id=AAS77192.1;transl_table=11
+AY543070.1	Genbank	gene	105773	106606	.	-	.	ID=gene-T5.154;Name=T5.154;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.154
+AY543070.1	Genbank	CDS	105773	106606	.	-	0	ID=cds-AAS77193.1;Parent=gene-T5.154;Dbxref=NCBI_GP:AAS77193.1;Name=AAS77193.1;Note=similar to to YOMD TrEMBL 064041%3B contains single transmembrane domain;gbkey=CDS;locus_tag=T5.154;product=conserved hypothetical protein;protein_id=AAS77193.1;transl_table=11
+AY543070.1	Genbank	gene	106618	107934	.	-	.	ID=gene-T5.155;Name=T5.155;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.155
+AY543070.1	Genbank	CDS	106618	107934	.	-	0	ID=cds-AAS77194.1;Parent=gene-T5.155;Dbxref=NCBI_GP:AAS77194.1;Name=AAS77194.1;Note=matches to InterPro domain IPR001410;gbkey=CDS;locus_tag=T5.155;product=terminase%2C large subunit;protein_id=AAS77194.1;transl_table=11
+AY543070.1	Genbank	sequence_alteration	107430	107430	.	-	.	ID=id-T5.155;Note=in bacteriophage T5.155am123 results in amber-codon;gbkey=variation;locus_tag=T5.155;replace=t
+AY543070.1	Genbank	gene	107934	108416	.	-	.	ID=gene-T5.156;Name=T5.156;gbkey=Gene;gene_biotype=protein_coding;locus_tag=T5.156
+AY543070.1	Genbank	CDS	107934	108416	.	-	0	ID=cds-AAS77195.1;Parent=gene-T5.156;Dbxref=NCBI_GP:AAS77195.1;Name=AAS77195.1;gbkey=CDS;locus_tag=T5.156;product=hypothetical protein;protein_id=AAS77195.1;transl_table=11
+AY543070.1	Genbank	gene	108427	110349	.	-	.	ID=gene-T5.157;Name=oad;gbkey=Gene;gene=oad;gene_biotype=protein_coding;locus_tag=T5.157
+AY543070.1	Genbank	CDS	108427	110349	.	-	0	ID=cds-AAS77196.1;Parent=gene-T5.157;Dbxref=NCBI_GP:AAS77196.1;Name=AAS77196.1;gbkey=CDS;gene=oad;locus_tag=T5.157;product=receptor-binding tail protein;protein_id=AAS77196.1;transl_table=11
+AY543070.1	Genbank	promoter	110349	110423	.	+	.	ID=id-AY543070.1:110349..110423;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	promoter	110375	110449	.	-	.	ID=id-AY543070.1:110375..110449;gbkey=regulatory;regulatory_class=promoter
+AY543070.1	Genbank	gene	110429	110662	.	+	.	ID=gene-T5.158;Name=lpp;gbkey=Gene;gene=lpp;gene_biotype=protein_coding;locus_tag=T5.158
+AY543070.1	Genbank	CDS	110429	110662	.	+	0	ID=cds-AAS77197.1;Parent=gene-T5.158;Dbxref=NCBI_GP:AAS77197.1;Name=AAS77197.1;Note=inactivates T5 receptor FhuA%3B processed by lipoprotein signal peptidase%3B contains single transmembrane domain;gbkey=CDS;gene=lpp;locus_tag=T5.158;product=lytic conversion lipoprotein precursor;protein_id=AAS77197.1;transl_table=11
+AY543070.1	Genbank	mature_protein_region_of_CDS	110474	110659	.	+	.	ID=id-AAS77197.1:16..77;Parent=cds-AAS77197.1;gbkey=Prot;product=lytic conversion lipoprotein
+AY543070.1	Genbank	region	110474	110476	.	+	.	ID=id-T5.158;Note=N-terminal cysteine of the mature lipoprotein is fatty acylated;gbkey=Site;gene=lpp;locus_tag=T5.158
+AY543070.1	Genbank	gene	110826	110954	.	+	.	ID=gene-T5.159;Name=T5.159;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf1;locus_tag=T5.159
+AY543070.1	Genbank	CDS	110826	110954	.	+	0	ID=cds-AAS77198.1;Parent=gene-T5.159;Dbxref=NCBI_GP:AAS77198.1;Name=AAS77198.1;Note=contains single transmembrane domain;gbkey=CDS;locus_tag=T5.159;product=hypothetical protein;protein_id=AAS77198.1;transl_table=11
+AY543070.1	Genbank	gene	110954	111061	.	+	.	ID=gene-T5.160;Name=T5.160;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf2;locus_tag=T5.160
+AY543070.1	Genbank	CDS	110954	111061	.	+	0	ID=cds-AAS77199.1;Parent=gene-T5.160;Dbxref=NCBI_GP:AAS77199.1;Name=AAS77199.1;Note=contains single transmembrane domain;gbkey=CDS;locus_tag=T5.160;product=hypothetical protein;protein_id=AAS77199.1;transl_table=11
+AY543070.1	Genbank	gene	111058	111252	.	+	.	ID=gene-T5.161;Name=T5.161;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf3;locus_tag=T5.161
+AY543070.1	Genbank	CDS	111058	111252	.	+	0	ID=cds-AAS77200.1;Parent=gene-T5.161;Dbxref=NCBI_GP:AAS77200.1;Name=AAS77200.1;Note=contains single transmembrane domain;gbkey=CDS;locus_tag=T5.161;product=hypothetical protein;protein_id=AAS77200.1;transl_table=11
+AY543070.1	Genbank	gene	111245	111490	.	+	.	ID=gene-T5.162;Name=T5.162;gbkey=Gene;gene_biotype=protein_coding;gene_synonym=orf4;locus_tag=T5.162
+AY543070.1	Genbank	CDS	111245	111490	.	+	0	ID=cds-AAS77201.1;Parent=gene-T5.162;Dbxref=NCBI_GP:AAS77201.1;Name=AAS77201.1;Note=contains single transmembrane domain;gbkey=CDS;locus_tag=T5.162;product=hypothetical protein;protein_id=AAS77201.1;transl_table=11
+AY543070.1	Genbank	direct_repeat	111532	121750	.	+	.	ID=id-AY543070.1:111532..121750;Note=right terminal repeat%3B identical with left TR%3B not essential until DNA replication begins;gbkey=repeat_region;rpt_type=direct
+AY543070.1	Genbank	sequence_feature	121279	121280	.	-	.	ID=id-AY543070.1:121279..121280;Note=major DNA single-chain interruption;gbkey=misc_feature
+
