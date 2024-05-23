@@ -1,0 +1,4 @@
+numpy==1.26.4
+genomenotebook==0.8.9
+plotly==5.9.0
+pandas==2.1.4
