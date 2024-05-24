@@ -7,28 +7,28 @@ from typing import Optional, Tuple
 
 class PeakCalling:
     """
-    Класс для анализа значительных изменений покрытия между двумя наборами данных.
+    Class for analyzing significant coverage changes between two datasets.
 
-    Атрибуты:
-        data_1 (pd.DataFrame): Первый набор данных.
-        data_2 (pd.DataFrame): Второй набор данных.
-        window_size (int): Размер окна для расчета среднего покрытия.
-        threshold (float): Пороговое значение для значительных изменений.
-        changes (pd.DataFrame): Значительные изменения покрытия.
+    Attributes:
+        data_1 (pd.DataFrame): The first dataset.
+        data_2 (pd.DataFrame): The second dataset.
+        window_size (int): The window size for calculating average coverage.
+        threshold (float): The threshold for significant changes.
+        changes (pd.DataFrame): Significant coverage changes.
     """
 
     def __init__(self, data_1: str, data_2: str, window_size: int, reads_count_1: int, 
                  reads_count_2: int, threshold: float = 0.6) -> None:
         """
-        Инициализация класса PeakCalling.
+        Initialize the PeakCalling class.
 
-        Параметры:
-            data_1 (str): Путь к первому набору данных.
-            data_2 (str): Путь ко второму набору данных.
-            window_size (int): Размер окна для расчета среднего покрытия.
-            reads_count_1 (int): Количество прочтений в первом наборе данных.
-            reads_count_2 (int): Количество прочтений во втором наборе данных.
-            threshold (float): Пороговое значение для значительных изменений (по умолчанию 0.6).
+        Parameters:
+            data_1 (str): Path to the first dataset.
+            data_2 (str): Path to the second dataset.
+            window_size (int): The window size for calculating average coverage.
+            reads_count_1 (int): The number of reads in the first dataset.
+            reads_count_2 (int): The number of reads in the second dataset.
+            threshold (float): The threshold for significant changes (default is 0.6).
         """
         self.data_1 = pd.read_csv(data_1, sep='\t', header=None, names=['Sample', 'Position', 'Coverage'])
         self.data_2 = pd.read_csv(data_2, sep='\t', header=None, names=['Sample', 'Position', 'Coverage'])
@@ -43,10 +43,10 @@ class PeakCalling:
 
     def find_significant_coverage_changes(self) -> pd.DataFrame:
         """
-        Поиск значительных изменений покрытия между двумя наборами данных.
+        Find significant coverage changes between the two datasets.
 
-        Возвращает:
-            pd.DataFrame: Таблица со значительными изменениями покрытия.
+        Returns:
+            pd.DataFrame: A table with significant coverage changes.
         """
         data_1 = self.data_1
         data_2 = self.data_2
@@ -69,7 +69,7 @@ class PeakCalling:
 
     def visualize_coverage(self) -> None:
         """
-        Визуализация покрытия с выделением значительных изменений.
+        Visualize the coverage with significant changes highlighted.
         """
         fig = go.Figure()
 
@@ -88,11 +88,11 @@ class PeakCalling:
 
     def compare_coverage_changes_with_annotation(self, gff_annotation: str, bounds: tuple = (0, 120000)) -> None:
         """
-        Сравнение изменений покрытия с аннотациями в формате GFF.
+        Compare coverage changes with annotations in GFF format.
 
-        Параметры:
-            gff_annotation (str): Путь к файлу аннотаций GFF.
-            bounds (tuple): Границы отображения графиков для сравнения с аннотацией (по умолчанию (0, 120000)).
+        Parameters:
+            gff_annotation (str): Path to the GFF annotation file.
+            bounds (tuple): The display bounds for the comparison graphs (default is (0, 120000)).
         """
         changes = self.find_significant_coverage_changes()
 
@@ -101,20 +101,20 @@ class PeakCalling:
 
         gff_path = gff_annotation
 
-        # Создаем объект GenomeBrowser
+        # Create a GenomeBrowser object
         g = gn.GenomeBrowser(gff_path=gff_path, bounds=(0, 120000), search=False)
 
-        # Добавляем графики покрытий из каждого набора данных
+        # Add coverage graphs from each dataset
         track = g.add_track(height=350)
         track.line(data=self.data_1, pos="Position", y="Coverage", name=f"{self.dataset_name_1}", line_width=2)
         track.line(data=self.data_2, pos="Position", y="Coverage", name=f"{self.dataset_name_2}", line_color="green", line_width=2)
 
-        # Подсвечиваем область изменений 
+        # Highlight the regions of changes
         highlight_regions = pd.DataFrame({"left": left_bounds, "right": right_bounds, "color": "red"})
         track.highlight(data=highlight_regions, left="left", right='right', color="color")
         g.highlight(data=highlight_regions)
 
-        # Показываем результат
+        # Show the result
         g.show()
         print(f'Green Line: {self.dataset_name_1}')
         print(f'Blue Line: {self.dataset_name_2}')
