@@ -43,7 +43,7 @@ Bash script for reads preprocessing with the following operions:
 - bowtie2 v2.5.4: mapping reads to T5 phage reference genome (fasta);
 - samtools v. 1.20:
 - convertion of dam files to bam, sorting and indexing of bam files;
-- generation of coverage.txt files from sorted_bam files (further, coverage files are parsed to peak calling script).
+- generation of coverage.txt files from sorted_bam files (further, coverage files are parsed to the peak calling script).
 
 
 ## [PeakCalling example](#peakcalling)
