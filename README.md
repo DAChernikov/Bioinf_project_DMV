@@ -38,11 +38,12 @@ A detailed presentation of the project is available at the following link:
 5. Repeating the analysis on other datasets.
 
 ## [Getting coverages from fasta-files](#bash-script)
-Bash script for reads preprocessing \
--Operations included:
+Bash script for reads preprocessing with the following operions: \
 - fastp v. 0.23.2: trimming, quality control and deduplication of paired-end reads (fastq); 
 - bowtie2 v2.5.4: mapping reads to T5 phage reference genome (fasta);
-- samtools v. 1.20: convertion of dam files to bam, sorting and indexing of bam files;
+- samtools v. 1.20:
+- convertion of dam files to bam, sorting and indexing of bam files;
+- generation of coverage.txt files from sorted_bam files (further, coverage files are parsed to peak calling script).
 
 
 ## [PeakCalling example](#peakcalling)
