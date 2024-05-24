@@ -20,15 +20,15 @@ A detailed presentation of the project is available at the following link:
 ## [Tested datasets)](#datasets)
 
 - Dataset 1 (search for the PARIS system triggers from T5 phage)
-  - DNA samples were extracted from cells under three different conditions:
+  DNA samples were extracted from cells under three different conditions:
   - (1) Сells before induction (16_t5-d-plasm_x200);
   - (2) Induction of T5 genes library in cells without PARIS (16_t5_plus_d-plasm_x200);
   - (3) Induction of T5 genes library in cells with PARIS (185_t5_plus_d-plasm_x200);
   
 - Dataset 2 (search for genes responsible for methylation inhibition from T5 phage):
   DNA samples were extracted from cells under two different conditions:
-  (1) Cells before treatment with Dpn (T5_lib_Meth_Inhib_Dpn/t5_plus_dapg-plasm_x200);
-  (2) Cells after several rounds of treatment with Dpn (T5_lib_Meth_Inhib_Dpn/t5_plus_dapg_plus_dpn-plasm_x200);
+  - (1) Cells before treatment with Dpn (T5_lib_Meth_Inhib_Dpn/t5_plus_dapg-plasm_x200);
+  - (2) Cells after several rounds of treatment with Dpn (T5_lib_Meth_Inhib_Dpn/t5_plus_dapg_plus_dpn-plasm_x200);
 
 ## [Project tasks](#tasks)
 1. Analyzing the genomic composition of the mapped reads of the dataset.
