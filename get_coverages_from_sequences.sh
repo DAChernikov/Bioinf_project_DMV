@@ -1,6 +1,3 @@
-﻿conda create -n GVA-ReadPreProcessing -c conda-forge -c bioconda fastp fastqc multiqc
-
-
 for file in *1.fq.gz
 do 
 fastp -i $file -I ${file%1.fq.gz}2.fq.gz -o ${file%.fq.gz}_trimmed.fq.gz -O ${file%1.fq.gz}2_trimmed.fq.gz
