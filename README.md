@@ -74,13 +74,13 @@ reads_count_2 = 8991837
 ```
 3. Initiate Peak Calling class:
 ```python
-peak_calling = PeakCalling( \
-    data_1='./data/coverage_16t5_plus_r209.txt', \  # path to first dataset
-    data_2='./data/coverage_185_t5_sorted.txt', \   # path to second dataset
-    threshold=0.6, \                                # optional param for filtering significant changes
+peak_calling = PeakCalling( 
+    data_1='./data/coverage_16t5_plus_r209.txt',  # path to first dataset
+    data_2='./data/coverage_185_t5_sorted.txt',  # path to second dataset
+    threshold=0.6,                                  # optional param for filtering significant changes
     window_size=250,                                # required param for setting significant changes areas
-    reads_count_1=reads_count_1, \                  # required param for normalization of datasets to each other
-    reads_count_2=reads_count_2 \                   # required param for normalization of datasets to each other
+    reads_count_1=reads_count_1,                   # required param for normalization of datasets to each other
+    reads_count_2=reads_count_2                    # required param for normalization of datasets to each other
 )
 ```
 4. Find significant changes:
