@@ -17,15 +17,15 @@ Our mission was to design and to implement algorithm of detection and analysis o
 A detailed presentation of the project is available at the following link:
 [Project Presentation in Google Slides](https://docs.google.com/presentation/d/19mHDZ0CSnLlx3B0bmdQ0IPGS7Bzpw0VhEKGx3RNjeOc/edit#slide=id.g2dab76cc6da_0_0)
 
-## [Tested datasets)](#datasets)
+## [Tested datasets](#datasets)
 
-- Dataset 1 (search for the PARIS system triggers from T5 phage)
+- Dataset 1 (search for the PARIS system triggers from T5 phage): \
   DNA samples were extracted from cells under three different conditions:
   - (1) Сells before induction (16_t5-d-plasm_x200);
   - (2) Induction of T5 genes library in cells without PARIS (16_t5_plus_d-plasm_x200);
   - (3) Induction of T5 genes library in cells with PARIS (185_t5_plus_d-plasm_x200);
   
-- Dataset 2 (search for genes responsible for methylation inhibition from T5 phage):
+- Dataset 2 (search for genes responsible for methylation inhibition from T5 phage): \
   DNA samples were extracted from cells under two different conditions:
   - (1) Cells before treatment with Dpn (T5_lib_Meth_Inhib_Dpn/t5_plus_dapg-plasm_x200);
   - (2) Cells after several rounds of treatment with Dpn (T5_lib_Meth_Inhib_Dpn/t5_plus_dapg_plus_dpn-plasm_x200);
