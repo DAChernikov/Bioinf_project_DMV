@@ -15,7 +15,7 @@ Our mission was to design and to implement algorithm of detection and analysis o
 
 ## [Project presentation](#project_presentation)
 A detailed presentation of the project is available at the following link:
-[Project Presentation in Google Slides](https://docs.google.com/presentation/d/19mHDZ0CSnLlx3B0bmdQ0IPGS7Bzpw0VhEKGx3RNjeOc/edit#slide=id.g2dab76cc6da_0_0)
+[Project Presentation in Google Slides](https://docs.google.com/presentation/d/1-kc8VKswy1jSJtLdnW5ndEVFsDW8Zu47-j3dAhWQWUY/edit#slide=id.g248382478f0_0_0)
 
 ## [Tested datasets](#datasets)
 
@@ -47,9 +47,9 @@ Bash script for reads preprocessing with the following operions:
 
 
 ## [PeakCalling example](#peakcalling)
-Full example you can find in `PeakCaller_example.ipynb`
+Full example you can find in `PeakCaller_example.html`, or you can download and test it by yourself at `PeakCaller_example.ipynb` file.
 
-`TXT` files (datasets with coverages from fasta files) you can get from our bash-script (previous point)
+`TXT` files (datasets with coverages from fasta files) you can get from our bash-script (previous point).
 
 ### Installation 
 To install our peakcalling script, please, follow these steps:
