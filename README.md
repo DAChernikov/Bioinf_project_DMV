@@ -16,7 +16,7 @@ Our mission was to design and to implement algorithm of detection and analysis o
 ## [Project presentation](#project_presentation)
 A detailed presentation of the project is available at the following link:
 [Project Presentation in Google Slides](https://docs.google.com/presentation/d/1-kc8VKswy1jSJtLdnW5ndEVFsDW8Zu47-j3dAhWQWUY/edit#slide=id.g248382478f0_0_0)
-
+An article of project is available at the following link: [Project_article_in_Google_Docs](https://docs.google.com/document/d/12v7jMY6MVl_PfCG7t5ZEpDkaIOuY5lnJCO70OpLxrSc/edit)
 ## [Tested datasets](#datasets)
 
 - Dataset 1 (search for the PARIS system triggers from T5 phage): \
